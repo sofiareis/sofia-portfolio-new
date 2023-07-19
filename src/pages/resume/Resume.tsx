@@ -1,5 +1,5 @@
 import "pages/resume/Resume.scss"
-import {skills, work, projects, array, education} from "./ResumeInfo";
+import {work, projects, array, education} from "./ResumeInfo";
 
 const Resume = () => {
     const renderexperience = (array: ({heading: string; description: string;}[] | 

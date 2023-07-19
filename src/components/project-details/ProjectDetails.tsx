@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import {cardsdetails} from 'components/project-details/ProjectDetailsInfo'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import parse from 'html-react-parser';
 
 const ProjectDetails = () => {
     let {id} = useParams();
@@ -13,6 +14,16 @@ const ProjectDetails = () => {
             <div>
                 <p className="details-heading">Product Prizes</p>
                 <p>{project.prizes}</p>
+            </div>
+            );
+        }
+    }
+    const renderdescription = () => {
+        if(project.description){ 
+            return(
+            <div>
+                <p className="details-heading">Product Description</p>
+                <p>{project.description}</p>
             </div>
             );
         }
@@ -43,8 +54,7 @@ const ProjectDetails = () => {
         </div>
         <div className="details-about">
             {rendercode()}
-            <p className="details-heading">Product Description</p>
-            <p>{project.description}</p>
+            {renderdescription()}
             <p className="details-heading">Product Technologies</p>
             <p>{project.technologies}</p>
             {renderprizes()}
