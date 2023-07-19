@@ -10,47 +10,45 @@
 }
 
 .project-list{
-    display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
+ padding-top: 20px;
+ padding-bottom: 20px;
 }
 
 .project-list-items{
-    display: grid;
-    align-items: center;
-    margin: 15px;
-    list-style: none;
-    flex: 0 0 33.333333%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+
 }
 
-
 .project-list-title{
-    background-color: rgb(152, 52, 104);
-    width: 370px;
-    text-align: center;
-    font-size: 25px;
-
+    background-color: rgba(181, 190, 152, 0.4);
 }
 
 .project-list-image{
-    background-color: rgb(193, 180, 195);
-    padding: 10px;
-    padding-top: 1px;
-}
-
-img{
-    width: 350px;
-    height: 250px;
-    
+    padding-top: 56.25%, 
 }
 
 .project-list-about{
-    background-color:rgb(193, 180, 195);
-    width: 370px;
-    height: 70px
+    flex-grow: 1;
+    background-color: rgba(181, 190, 152, 0.4);
 }
 
-li {list-style-type: none;}
+
+.project-list-action{
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color:  rgba(181, 190, 152, 0.4);
+}
+
+.project-list-view{
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+.details-about p {
+    white-space: pre-wrap;
+}

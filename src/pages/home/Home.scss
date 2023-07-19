@@ -1,46 +1,42 @@
 .home-container{
-    display: grid;
+    min-height: 100vh;
+}
+
+.home-image{
+ background-image: url('src/assets/sofia.jpeg');   
+ background-size: cover;
+ background-position: center;
+}
+
+.home-about-container{
+    display: flex;
     align-items: center;
-    grid-template-columns: 2fr 1.5fr ;
-    column-gap: 5px;
-}
-
-img{
-    width: 100%;
-    height: 100%;
-}
-
-.home-me{
-    padding: 10px;  
-    margin-left: -20px;
+    justify-content: center;
 }
 
 .home-about{
-    font-size: 20px;
-    margin: 10px;
-    margin-top: -40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.home-writing{
     text-align: center;
-  }
+}
 
+.home-contact{
+    background-color: #ddd4d4;
+    padding: 25px 50px;
+    text-align: center;
+} 
 
-@media screen and (max-width: 960px) {
-    .home-container{
-        display: grid;
-        align-items: center;
-        grid-template-columns: 2fr 1.5fr ;
-        column-gap: 5px;
-    }
-    
-    img{
-        width: 100%;
-        height: 100%;
-    }
-    
-    .home-me{
-        
-    }
-
-    .home-about{
-       
-    }
+.home-icons{
+    color:black;
+    height: 30px;
+    width: 30px;
+    padding-left: 9px;
 }

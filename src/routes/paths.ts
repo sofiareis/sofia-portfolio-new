@@ -7,5 +7,5 @@ interface Paths {
     NOT_FOUND: '*',
     PROJECTS: '/projects',
     RESUME: '/resume',
-    
+    PROJECTDETAILS: '/projects/:id',
  } as Paths;

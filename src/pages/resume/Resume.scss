@@ -1,0 +1,93 @@
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.resume-row{
+    display: grid;
+    grid-template-columns: .8fr 2fr;
+    align-items: flex-start;
+}
+
+.resume-title{
+    font-size: 25px;
+    padding-right: 30px;
+    align-self: flex-start;
+}
+
+.resume-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.resume-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-headings{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.resume-where{
+    
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.resume-list{
+    padding-left: 10px;
+}
+
+.resume-items{
+    padding-bottom: 10px;
+}
+
+.resume-line{
+    color: green;
+    background: green;
+    border-color: green;
+    height: 4px;
+}
+
+.skills-container{
+    margin-top: 15px;;
+}
+
+
+.skills-info{
+    display: flex;
+    flex-direction: row;
+} 
+
+.skills-heading{
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.skills-lang{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.resume-edu{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {    
+    .resume-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-info{
+        display: flex;
+        flex-direction: column;
+    } 
+}

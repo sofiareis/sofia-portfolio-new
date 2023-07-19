@@ -1,9 +1,6 @@
 import React, {useState} from 'react';
 import 'components/navbar/Navbar.scss';
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
  function Navbar() {
     const[click, setClick] = useState(false);
@@ -13,12 +10,9 @@ import { faTimes } from '@fortawesome/free-solid-svg-icons'
     return(
         <nav className='navbar'>
             <div className="navbar-container">
-                    <Link to="/" className="navbar-logo">
+                    <Link to="/" className="navbar-name">
                         Sofia Bandeira dos Reis
                     </Link>  
-                    <div className='menu-icon' onClick={handleClick}>
-                        <FontAwesomeIcon icon={click ? faTimes : faBars} className={click? 'fa-times' : 'fa-bars'}/>
-                    </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to ='/' onClick={closeMenu} className='nav-links'>
