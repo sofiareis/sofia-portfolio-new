@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import 'components/navbar/Navbar.scss';
 import { Link } from 'react-router-dom';
 
  function Navbar() {
     const[click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
     const closeMenu = () =>setClick(false);
 
     return(

@@ -3,7 +3,6 @@ import { useParams } from "react-router-dom";
 import {cardsdetails} from 'components/project-details/ProjectDetailsInfo'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import parse from 'html-react-parser';
 
 const ProjectDetails = () => {
     let {id} = useParams();

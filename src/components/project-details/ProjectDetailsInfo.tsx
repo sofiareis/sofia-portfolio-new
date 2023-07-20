@@ -1,13 +1,13 @@
-import sharity from 'assets/sharity.png'
-import moko from 'assets/moko.png'
-import renew from 'assets/renew.png'
-import chessie from 'assets/chessie.png'
-import alacrity from 'assets/alacrity.png'
-import robotdog from 'assets/robotdog.png'
-import dancingrobot from 'assets/dancingrobot.png'
-import careercue from 'assets/careercue.png'
-import boba from 'assets/GIF.gif'
-import patientviz from 'assets/patientviz.jpeg'
+import sharity from '/sharity.png'
+import moko from '/moko.png'
+import renew from '/renew.png'
+import chessie from '/chessie.png'
+import alacrity from '/alacrity.png'
+//import robotdog from '/robotdog.png'
+//import dancingrobot from '/dancingrobot.png'
+import careercue from '/careercue.png'
+import boba from '/GIF.gif'
+import patientviz from '/patientviz.jpeg'
 
 export const cards = [
     {

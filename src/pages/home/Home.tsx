@@ -1,5 +1,5 @@
 import "pages/home/Home.scss"
-import { CssBaseline, Grid, Paper } from "@mui/material";
+import { CssBaseline, Grid } from "@mui/material";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from 'components/footer/Links';
 
