@@ -1,0 +1,259 @@
+.careercue-container{
+    font-size: var(--font-size);
+    align-items: center;
+    justify-content: center;
+    line-height: var(--line-height);
+}
+
+.careercue-banner-container{
+    background-color: #E7F7ED;
+}
+
+.careercue-banner{
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.careercue-banner-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.careercue-banner-heading1{
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.careercue-banner-heading2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+.careercue-banner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //margin-left: 100px;
+}
+
+.careercue-banner img{
+    height: auto;
+    max-height: 450px;
+    width: auto;
+    max-width: 450px;
+    padding-right: 50px;
+}
+
+.careercue-inspo-container{
+    background-color:  var(--careercue-colour);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-inspo{
+    max-width: var(--max-width);
+    display: flex;
+    margin: var(--margin);
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-inspo-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.careercue-title{
+    font-size: var(--title-size);
+    margin-bottom: var(--title-margin-bottom);
+}
+
+.careercue-inspo-img img{
+    height: auto;
+    max-height: 350px;
+    width: auto;
+    max-width: 450px;
+    padding-left: 50px;
+}
+
+.careercue-inspo-banner p{
+    margin: 10px;
+}
+
+.careercue-desc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-desc{
+    margin: var(--margin);
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+}
+
+.careercue-desc-container-column{
+    display: flex;
+    flex-direction: row;
+}
+
+.careercue-desc-container-record{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.careercue-desc-record{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.careercue-desc-record-img{
+    //margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.careercue-desc-record-img img{
+    height: auto;
+    max-height: 450px;
+    width: auto;
+    max-width: 450px;
+    padding-left: 50px;
+}
+
+.careercue-desc-container-feed{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.careercue-desc-feed-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.careercue-desc-feed-img img{
+    height: auto;
+    max-height: 450px;
+    width: auto;
+    max-width: 450px;
+    padding-right: 50px;
+}
+
+.careercue-desc-feed{
+   // margin-left: 40px;
+}
+
+.careercue-tech-container{
+    background-color: var(--careercue-colour);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-tech{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.careercue-tech-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.careercue-tech-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-tech-desc{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.careercue-tech-front{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-tech-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-tech-label{
+    color: white;
+    width: 253px;
+    height: 45px;
+    background: var(--careercue-label);
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.careercue-prizes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-prizes{
+    max-width: var(--max-width);
+    margin: 50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.careercue-prizes-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.careercue-prize-img{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+//Smaller screens adapt

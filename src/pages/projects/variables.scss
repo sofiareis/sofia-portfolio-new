@@ -1,0 +1,51 @@
+body {
+    --margin: 80px 110px;
+    --max-width: 1354px;
+    --font-size: 18px;
+    --title-size: 40px;
+    --title-margin-bottom: 20px;
+    --line-height: 2;
+    --sharity-colour:  #739AAB;
+    --sharity-label: #D38796;
+    --renew-colour:  #839788;
+    --renew-label: #4A6FA5;
+    --moko-colour:  #87B676;
+    --moko-label: #F58024;
+    --careercue-colour:  #FBDFFD;
+    --careercue-label: #4849B8;
+    --patientviz-colour:  #A96385;
+    --patientviz-label: #52D6C0;
+    --chessmate-colour1:  #97B6A7;
+    --chessmate-colour2:  #FFECFB;
+    --chessmate-label: #577076;
+    --alacrity-colour1: linear-gradient(white, #79F87C);
+    --alacrity-colour2: linear-gradient(360deg, white, #F5C0E2);
+    --alacrity-colour3:  #1EAFF8;
+    --alacrity-label: #F4B5DC;
+}
+
+//1060
+@media screen and (max-width: 1060px) {
+    body{
+        --margin: 80px 80px;
+        --title-size: 35px;
+    }
+}
+
+//960
+@media screen and (max-width: 960px) {
+    body{
+    --margin: 60px 80px;
+    --font-size: 16px;
+    --title-size: 30px;
+    }
+}
+
+//600
+@media screen and (max-width: 960px) {
+    body{
+    --margin: 60px 40px;
+    --font-size: 16px;
+    --title-size: 30px;
+    }
+}

@@ -51,10 +51,10 @@ export const cards = [
     },
   
     {
-      title: 'Chessie',
+      title: 'ChessMate',
       description: 'A chess engine that features a hardware-accelerated chess algorithm and an Android app',
       images: chessie,
-      page: 'chessie',
+      page: 'chessmate',
   
     },
   
@@ -81,7 +81,7 @@ export const cards = [
       page: 'robotdog',
   
     },
-*/
+
     {
       title: 'BobaBudy',
       description: 'An app to determine which is your favourite Bubble Tea flavor',
@@ -89,6 +89,7 @@ export const cards = [
       page: 'bobabuddy',
   
     },
+    */
     
 ];
 
@@ -153,8 +154,8 @@ export const cardsdetails: {[key: string] : Details} = {
   
     },
   
-    'chessie': {
-      title: 'Chessie',
+    'chessmate': {
+      title: 'ChessMate',
       overview: 'ChessMate is a one player chess engine where the user plays against an AI opponent. Not only can the player play a game of chess, they can save their games to replay for analysis and pause games in the middle of playing. The majority of the processing is done on the ARM chip on the DE1-SoC with rendering and move input being done on an Android phone. The DE1 and the phone are supposed to communicate over Bluetooth. \nThis project aims to attract tech savvy people who are interested in learning how to play chess or improve their existing skill. Our design takes into consideration that not everyone has a pre-existing knowledge of chess, therefore it will perform move validation and automatically prevent illegal moves from being played.',
       images: chessie,
       code: 'https://github.com/sofiareis/ChessMate',
@@ -190,7 +191,7 @@ export const cardsdetails: {[key: string] : Details} = {
       description: '',
       technologies: '',
     },
-*/
+
     'bobabuddy': {
       title: 'BobaBudy',
       overview: "Bubble tea is one of the most popular drinks on campus, and you'd often see long lines at UBC's boba hotspots. What makes it special is the variety of flavours to choose from and the option to customize to perfection with different levels of sugar and ice. Although boba-lovers have their favourites, it can be hard for bubble tea beginners to decide what they want and this is where our app comes in!",
@@ -199,6 +200,7 @@ export const cardsdetails: {[key: string] : Details} = {
       description: "This app shows the menus of two bubble tea places at UBC, Coco and Pearl Fever, which allows people to choose ahead of time and compare the options at the different locations. In addition, it provides a simple quiz if you're having a bit of trouble choosing your drink. Based on a series of personality-based questions, your responses to the quiz will determine what drink you should get!",
       technologies: "-Flutter (Dart)",
     },
+    */
 };
 
 

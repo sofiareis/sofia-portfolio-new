@@ -1,0 +1,600 @@
+.sharity-container{
+    font-size: var(--font-size);
+    align-items: center;
+    justify-content: center;
+    line-height: var(--line-height);
+}
+
+.sharity-banner{
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+}
+
+.sharity-banner-headings{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+    color: #8D5C66;
+    margin-left: 50px;
+}
+
+.sharity-banner-heading1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sharity-banner-heading2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.sharity-banner-heading3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 70px;
+}
+
+.sharity-banner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.sharity-banner img{
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    max-width: 300px;
+}
+
+.sharity-inspo-container{
+    background-color:  var(--sharity-colour);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-inspo{
+    max-width: var(--max-width);
+    display: flex;
+    margin: var(--margin);
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-inspo-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.sharity-title{
+    font-size: var(--title-size);
+    margin-bottom: var(--title-margin-bottom);
+}
+
+.sharity-inspo-banner{
+    line-height: normal;
+    min-width: 460px;
+    max-height: 270px;
+    margin-left: 40px;
+    color: #8D5C66;
+    background-color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+.sharity-inspo-banner p{
+    margin: 10px;
+}
+
+.sharity-desc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-desc{
+    margin: var(--margin);
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+}
+
+.sharity-desc-desc-user{
+    display: flex;
+    flex-direction: row;
+}
+
+.sharity-desc-user-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-desc-user-img img{
+    height: auto;
+    max-height: 350px;
+    width: auto;
+    max-width: 350px;
+    padding-right: 50px;
+}
+
+.sharity-desc-user{
+    margin-left: 40px;
+}
+
+.sharity-desc-desc-charity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sharity-desc-charity{
+    margin-top: 20px;
+    margin-right: 40px;
+    justify-content: flex-start; 
+}
+
+.sharity-desc-charity-img{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sharity-desc-charity-img img{
+    height: auto;
+    max-height: 350px;
+    width: auto;
+    max-width: 350px;
+    padding-left: 50px;
+}
+
+.sharity-tech-container{
+    background-color: var(--sharity-colour);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-tech{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sharity-tech-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.sharity-tech-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-tech-desc{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sharity-tech-front{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-tech-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-tech-label{
+    width: 253px;
+    height: 45px;
+    background: var(--sharity-label);
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sharity-prizes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-prizes{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sharity-prizes-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.sharity-prize-img{
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+//Smaller screens adapt
+
+//1320
+@media screen and (max-width: 1320px) {
+    .sharity-banner-headings{
+        font-size: 40px;
+    }
+
+    .sharity-banner-heading3{
+        font-size: 60px;
+    }
+
+    .sharity-inspo-column{
+        margin-right: 20px;
+    }
+
+    .sharity-inspo-banner{
+        font-size: 55px;
+        margin-left: 10px;
+    }
+
+    .sharity-desc-user-img img{
+        max-height: 300px;
+        max-width: 300px;
+        padding-right: 25px;
+    }
+
+    .sharity-desc-user{
+        margin-left: 10px;
+    }
+
+    .sharity-tech-column{
+        margin-right: 0px;
+    }
+
+    .sharity-desc-charity{
+        margin-right: 10px;
+    }
+
+    .sharity-title{
+        line-height: normal;
+    }
+
+    .sharity-desc-charity-img img{
+        max-height: 300px;
+        max-width: 300px;
+        padding-left: 25px;
+    }
+
+    .sharity-tech-desc{
+        margin-left: 0px;
+    }
+
+    .sharity-tech-front{
+        margin-right: 40px;
+    }
+
+    .sharity-prizes-column{
+        margin-right: 50px;
+    }
+    
+    .sharity-prize-img{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .sharity-banner-headings{
+        font-size: 35px;
+        margin-left: 25px;
+    }
+
+    .sharity-banner-heading3{
+        font-size: 55px;
+    }
+
+    .sharity-banner-img{
+        margin-left: 70px;
+    }
+
+    .sharity-inspo-column{
+        margin-right: 10px;
+    }
+
+    .sharity-inspo-banner{
+        min-width: 360px;
+        max-height: 270px;
+        margin-left: 25px;
+        font-size: 45px;
+        padding: 10px;
+    }
+
+    .sharity-tech-front{
+        margin-right: 30px;
+    }
+
+    .sharity-prizes-column{
+        margin-right: 30px;
+    }
+    
+    .sharity-prize-img{
+        margin-left: 30px;
+    }
+}
+
+//960
+@media screen and (max-width: 900px) {
+    .sharity-banner{
+        flex-direction: column;
+    }
+
+    .sharity-banner-headings{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .sharity-banner-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .sharity-banner img{
+        height: auto;
+        max-height: 250px;
+        width: auto;
+        max-width: 250px;
+        margin-top: 20px;
+    }
+
+    .sharity-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sharity-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sharity-inspo-banner{
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .sharity-desc{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sharity-desc-desc-user{
+        flex-direction: column-reverse;
+    }
+
+    .sharity-desc-user-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .sharity-desc-user{
+        margin-left: 0px;
+    }
+
+    .sharity-desc-desc-charity{
+        flex-direction: column;
+    }
+
+    .sharity-desc-charity-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .sharity-desc-charity{
+        margin-right: 0px;
+    }
+    
+    .sharity-tech{
+        flex-direction: column;
+    }
+
+    .sharity-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sharity-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .sharity-prizes{
+        flex-direction: column;
+    }
+
+    .sharity-prizes-column{
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .sharity-prize-img{
+        margin-left: 0px;
+        justify-content: center;
+    }
+    
+}
+
+//600
+@media screen and (max-width: 600px) {
+
+    .sharity-banner-headings{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .sharity-banner-heading3{
+        font-size: 35px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .sharity-banner-img{
+        margin-left: 0px;
+    }
+
+    .sharity-banner img{
+        height: auto;
+        max-height: 200px;
+        width: auto;
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    .sharity-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sharity-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sharity-inspo-banner{
+        margin: 0px;
+        margin-top: 30px;
+        min-width: 270px;
+        font-size: 35px;
+    }
+
+    .sharity-desc{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .sharity-desc-desc-user{
+        flex-direction: column-reverse;
+    }
+
+    .sharity-desc-user-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        max-height: 250px;
+        max-width: 225px;
+    }
+
+    .sharity-desc-user{
+        margin-left: 0px;
+    }
+
+    .sharity-desc-desc-charity{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+
+    .sharity-desc-charity-img{
+        margin-top: 0px;
+    }
+
+    .sharity-desc-charity-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        max-height: 250px;
+        max-width: 225px;
+    }
+    
+    .sharity-tech{
+        flex-direction: column;
+    }
+
+    .sharity-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sharity-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sharity-tech-front{
+        margin-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .sharity-prizes{
+        flex-direction: column;
+    }
+
+    .sharity-prizes-column{
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .sharity-prize-img{
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .sharity-prize-img img{
+        max-width: 250px;
+        max-height: 250px;
+    }
+    
+}

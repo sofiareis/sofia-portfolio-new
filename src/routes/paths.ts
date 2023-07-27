@@ -7,5 +7,11 @@ interface Paths {
     NOT_FOUND: '*',
     PROJECTS: '/projects',
     RESUME: '/resume',
-    PROJECTDETAILS: '/projects/:id',
+    SHARITY: '/projects/sharity',
+    RENEW: '/projects/renew',
+    MOKO: '/projects/moko',
+    CAREERCUE: '/projects/careercue',
+    PATIENTVIZ: '/projects/patientviz',
+    CHESSMATE: '/projects/chessmate',
+    ALACRITY: '/projects/alacrity',
  } as Paths;

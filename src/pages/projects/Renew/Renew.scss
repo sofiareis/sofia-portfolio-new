@@ -1,0 +1,237 @@
+.renew-container{
+    font-size: var(--font-size);
+    align-items: center;
+    justify-content: center;
+    line-height: var(--line-height);
+}
+
+.renew-banner-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #BDBBB6;
+    //background-image: url('/renew/vector1.png');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.renew-banner{
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.renew-banner-headings{
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    margin-left: 50px;
+}
+
+.renew-banner-heading1{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: #4A6FA5;
+}
+
+.renew-banner-heading2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+.renew-banner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-banner img{
+    height: auto;
+    max-height: 300px;
+    width: auto;
+    max-width: 300px;
+    padding-right: 50px;
+}
+
+.renew-inspo-container{
+    background-color:  var(--renew-colour);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-inspo{
+    max-width: var(--max-width);
+    display: flex;
+    margin: var(--margin);
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-inspo-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.renew-title{
+    font-size: var(--title-size);
+    margin-bottom: var(--title-margin-bottom);
+}
+
+.renew-inspo-banner{
+    margin-top: -90px;
+    min-width: 460px;
+    max-height: 270px;
+    margin-left: 40px;
+    text-align: center;
+    //padding: 10px;
+}
+
+.renew-desc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.renew-desc{
+    margin: var(--margin);
+    max-width: var(--max-width);
+    display: flex;
+    flex-direction: column;
+}
+
+.renew-desc-container-feat{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-desc-feat-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-desc-feat-img img{
+    height: auto;
+    max-height: 350px;
+    width: auto;
+    max-width: 350px;
+    padding-right: 50px;
+}
+
+.renew-desc-feat{
+    margin-left: 40px;
+}
+
+.renew-tech-container{
+    background-color: var(--renew-colour);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/renew/vector3.png');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.renew-tech{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.renew-tech-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.renew-tech-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-tech-desc{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.renew-tech-front{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-tech-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-tech-label{
+    color: white;
+    width: 253px;
+    height: 45px;
+    background: var(--renew-label);
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.renew-prizes-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/renew/vector4.png');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.renew-prizes{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-prizes-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.renew-prize-img{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+//Smaller screens adapt
