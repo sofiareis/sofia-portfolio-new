@@ -36,9 +36,6 @@ const Renew = () => {
                             In light of the war in Ukraine today, millions of Ukranians have fled into neighboring countries into a frightening and uncertain future. Our team wanted to create something to help refugees in similar situations as they navigate life in a new, unfamiliar country. 
                         </div>
                     </div>
-                    <div className="renew-inspo-banner">
-                       <img src={vector2}/>
-                    </div>
                 </div>
             </div>
             <div className="renew-desc-container">

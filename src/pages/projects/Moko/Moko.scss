@@ -85,10 +85,8 @@
 }
 
 .moko-inspo-img{
-    //min-width: 460px;
     max-height: 270px;
     margin-left: 10px;
-    //padding: 10px;
 }
 
 .moko-inspo-banner p{
@@ -164,10 +162,6 @@
     padding-right: 50px;
 }
 
-.moko-desc-sell{
-   // margin-left: 40px;
-}
-
 .moko-tech-container{
     background-color: var(--moko-colour);
     display: flex;
@@ -186,7 +180,7 @@
 .moko-tech-column{
     display: flex;
     flex-direction: column;
-    margin-right: 60px;
+    margin-right: 38px;
 }
 
 .moko-tech-img{
@@ -199,7 +193,7 @@
     margin-top: 60px;
     display: flex;
     flex-direction: row;
-    margin-left: 60px;
+    margin-left: 30px;
     justify-content: flex-start;
     align-items: flex-start;
 }
@@ -231,42 +225,326 @@
     margin-top: 20px;
 }
 
-.moko-prizes-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.moko-prizes{
-    max-width: var(--max-width);
-    margin: var(--margin);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.moko-prizes-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 140px;
-}
-
-.moko-prize-img{
-    margin-left: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
 .moko-leaf{
     height: auto;
     max-height: 50px;
     width: auto;
     max-width: 50px;
     padding-left: 10px;   
-    
-    
 }
 
 
 //Smaller screens adapt
+
+//1320
+@media screen and (max-width: 1320px) {
+    .moko-inspo-column{
+        margin-right: 20px;
+    }
+
+    .moko-desc-buy-img img{
+        max-height: 300px;
+        max-width: 300px;
+        padding: 15px;
+    }
+
+    .moko-desc-buy{
+        margin-left: 0px;
+    }
+
+    .moko-tech-column{
+        margin-right: 0px;
+    }
+
+    .moko-desc-sell{
+        margin-right: 0px;
+    }
+
+    .moko-title{
+        line-height: normal;
+    }
+
+    .moko-desc-sell-img img{
+        max-height: 300px;
+        max-width: 300px;
+        padding: 15px;
+    }
+
+    .moko-tech-desc{
+        margin-left: 0px;
+    }
+
+    .moko-tech-front{
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .moko-banner-heading1{
+        font-size: 55px;
+    }
+    .moko-banner-heading2{
+        font-size: 45px;
+    }
+
+    .moko-inspo-column{
+        margin-right: 10px;
+    }
+
+    .moko-inspo-img img{
+        width: auto;
+        height: auto;
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+    .moko-desc-buy-img img{
+        max-height: 300px;
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    .moko-desc-buy{
+        margin-right: 0px;
+    }
+
+    .moko-desc-sell-img img{
+        max-height: 300px;
+        max-width: 300px;
+        padding: 10px;
+    }
+
+    .moko-sell-buy{
+        margin-left: 0px;
+    }
+
+    .moko-desc-container-sell{
+        margin-left: 20px;
+    }
+
+    .moko-tech-front{
+        margin-right: 30px;
+    }
+
+    .moko-leaf{
+        height: auto;
+        max-height: 35px;
+        width: auto;
+        max-width: 35px;
+        padding-left: 10px;   
+    }
+}
+
+//900
+@media screen and (max-width: 900px) {
+    .moko-banner{
+        flex-direction: column;
+    }
+
+    .moko-banner-headings{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .moko-banner-heading1{
+        font-size: 50px;
+    }
+
+    .moko-banner img{
+        height: auto;
+        max-height: 260px;
+        width: auto;
+        max-width: 260px;
+    }
+
+    .moko-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .moko-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .moko-inspo-banner{
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .moko-desc{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .moko-desc-desc-buy{
+        flex-direction: column-reverse;
+    }
+
+    .moko-desc-buy-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .moko-desc-buy-img img{
+        max-height: 210px;
+        max-width: 210px;
+    }
+
+
+    .moko-desc-sell-img img{
+        max-height: 210px;
+        max-width: 210px;
+    }
+
+    .moko-desc-desc-sell{
+        flex-direction: column;
+    }
+
+    .moko-desc-sell-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 8px;
+    }
+
+    .moko-desc-sell{
+        margin-right: 0px;
+    }
+
+    .moko-desc-container-sell{
+        margin-left: 10px;
+    }
+    
+    .moko-tech{
+        flex-direction: column;
+    }
+
+    .moko-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moko-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    
+}
+
+//600
+@media screen and (max-width: 600px) {
+
+    .moko-banner-headings{
+        text-align: center;
+    }
+
+    .moko-banner-heading1{
+        font-size: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .moko-banner img{
+        max-height: 210px;
+        max-width: 210px;
+    }
+
+    .moko-banner-heading2{
+        font-size: 28px;
+    }
+
+    .moko-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .moko-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .moko-desc{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .moko-desc-container-column{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moko-desc-container-buy{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .moko-desc-buy-img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .moko-desc-buy-img img{
+        padding: 5px;
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .moko-desc-buy{
+        margin-left: 0px;
+    }
+
+    .moko-desc-container-sell{
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-bottom: 0px;
+    }
+
+    .moko-desc-sell-img{
+        margin-top: 20px;
+    }
+
+    .moko-desc-sell-img img{
+        padding: 5px;
+        max-height: 200px;
+        max-width: 200px;
+    }
+    
+    .moko-tech{
+        flex-direction: column;
+    }
+
+    .moko-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .moko-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .moko-tech-front{
+        margin-right: 0px;
+        padding-bottom: 30px;
+    }
+    
+}

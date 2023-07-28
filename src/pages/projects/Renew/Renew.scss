@@ -63,6 +63,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url('/renew/vector2.png');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .renew-inspo{
@@ -82,15 +87,6 @@
 .renew-title{
     font-size: var(--title-size);
     margin-bottom: var(--title-margin-bottom);
-}
-
-.renew-inspo-banner{
-    margin-top: -90px;
-    min-width: 460px;
-    max-height: 270px;
-    margin-left: 40px;
-    text-align: center;
-    //padding: 10px;
 }
 
 .renew-desc-container{
@@ -235,3 +231,274 @@
 
 
 //Smaller screens adapt
+
+
+//1320
+@media screen and (max-width: 1320px) {
+    .renew-banner-headings{
+        font-size: 50px;
+    }
+
+    .renew-banner-heading2{
+        font-size: 40px;
+    }
+
+    .renew-inspo-column{
+        margin-right: 20px;
+    }
+
+    .renew-inspo-banner{
+        margin-left: 0px;
+    }
+
+    .renew-desc-feat-img img{
+        max-height: 300px;
+        max-width: 300px;
+        padding-right: 25px;
+    }
+
+    .renew-desc-feat{
+        margin-left: 10px;
+    }
+
+    .renew-tech-column{
+        margin-right: 0px;
+    }
+
+    .renew-title{
+        line-height: normal;
+    }
+
+    .renew-tech-desc{
+        margin-left: 0px;
+    }
+
+    .renew-tech-front{
+        margin-right: 40px;
+    }
+
+    .renew-prizes-column{
+        margin-right: 0px;
+    }
+    
+    .renew-prize-img{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .renew-banner-headings{
+        font-size: 35px;
+        margin-left: 25px;
+    }
+
+    .renew-banner-heading2{
+        font-size: 25px;
+    }
+
+    .renew-tech-front{
+        margin-right: 30px;
+    }
+
+    .renew-prizes-column{
+        margin-right: 0px;
+    }
+    
+    .renew-prize-img{
+        margin-left: 0px;
+    }
+}
+
+//900
+@media screen and (max-width: 900px) {
+    .renew-banner{
+        flex-direction: column;
+    }
+
+    .renew-banner-headings{
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .renew-banner-heading1{
+        margin-top: 40px;
+    }
+
+    .renew-banner-heading2{
+        margin-top: 30px;
+    }
+
+    .renew-banner-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .renew-banner img{
+        height: auto;
+        max-height: 250px;
+        width: auto;
+        max-width: 250px;
+        padding-right: 0px;
+    }
+
+    .renew-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .renew-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .renew-desc{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .renew-desc-container-feat{
+        flex-direction: column-reverse;
+    }
+
+    .renew-desc-feat-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .renew-desc-feat{
+        margin-left: 0px;
+    }
+
+    .renew-tech{
+        flex-direction: column;
+    }
+
+    .renew-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .renew-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .renew-prizes{
+        flex-direction: column;
+    }
+
+    .renew-prizes-column{
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .renew-prize-img{
+        margin-left: 0px;
+        justify-content: center;
+    }
+    
+}
+
+//600
+@media screen and (max-width: 600px) {
+
+    .renew-banner-headings{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .renew-banner-heading2{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .renew-banner img{
+        height: auto;
+        max-height: 200px;
+        width: auto;
+        max-width: 200px;
+        margin-top: 10px;
+    }
+
+    .renew-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .renew-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .renew-desc{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .renew-desc-feat-img img{
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        max-height: 250px;
+        max-width: 225px;
+    }
+    
+    .renew-tech{
+        flex-direction: column;
+    }
+
+    .renew-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .renew-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .renew-tech-front{
+        margin-right: 0px;
+        padding-bottom: 30px;
+    }
+
+    .renew-prizes{
+        flex-direction: column;
+    }
+
+    .renew-prizes-column{
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .renew-prize-img{
+        margin-left: 0px;
+        justify-content: center;
+    }
+
+    .renew-prize-img img{
+        max-width: 250px;
+        max-height: 250px;
+    }
+    
+}
