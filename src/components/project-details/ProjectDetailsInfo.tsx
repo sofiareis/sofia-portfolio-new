@@ -6,7 +6,7 @@ import alacrity from '/alacrity.png'
 //import robotdog from '/robotdog.png'
 //import dancingrobot from '/dancingrobot.png'
 import careercue from '/careercue.png'
-import boba from '/GIF.gif'
+//import boba from '/GIF.gif'
 import patientviz from '/patientviz.jpeg'
 
 export const cards = [

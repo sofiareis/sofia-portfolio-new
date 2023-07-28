@@ -3,7 +3,6 @@ import 'pages/projects/variables.scss'
 import logo from '/renew/Logo.png'
 import desc2 from '/renew/desc2.png'
 import desc3 from '/renew/desc3.png'
-import vector2 from '/renew/vector2.png'
 import tech from '/renew/tech.svg'
 import prize from '/renew/prize.svg'
 
