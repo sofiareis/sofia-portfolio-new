@@ -62,14 +62,14 @@ const Moko = () => {
                                 The app’s home shows local vendors who are near the user, allowing them to add items to their cart.  
                             </div>
                             <div className="moko-desc-buy-img">
-                                <img src={desc1}/>
-                                <img src={desc2}/>
+                                <img src={desc3}/>
+                                <img src={desc4}/>
                             </div>
                         </div>
                         <div className="moko-desc-container-sell">
                             <div className="moko-desc-sell-img">
-                                <img src={desc3}/>
-                                <img src={desc4}/>
+                                <img src={desc1}/>
+                                <img src={desc2}/>
                             </div>
                             <div className="moko-desc-sell">
                                 Moko also features a sell function where users can create their own store and sell their produce to other users.

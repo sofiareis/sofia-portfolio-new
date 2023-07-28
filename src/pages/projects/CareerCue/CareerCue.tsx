@@ -55,12 +55,12 @@ const CareerCue = () => {
                                 CareerCue provides a database of commonly asked behavioural interview questions across various industries. You can practice your responses by recording yourself and getting instant feedback to improve your answers.    
                             </div>
                             <div className="careercue-desc-record-img">
-                                <img src={desc2}/>
+                                <img src={desc1}/>
                             </div>
                         </div>
                         <div className="careercue-desc-container-feed">
                             <div className="careercue-desc-feed-img">
-                                <img src={desc1}/>
+                                <img src={desc2}/>
                             </div>
                             <div className="careercue-desc-feed">
                                 Our app provides customized feedback so you can see your strengths and weaknesses based on tone, clarity, word choice, and timing. You can switch questions, restart the recording, try the same question again, and send a summary of your answers and feedback to your email for later review.

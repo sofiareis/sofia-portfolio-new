@@ -87,12 +87,15 @@
 .alacrity-desc-container-column{
     display: flex;
     flex-direction: row;
+    //align-items: center;
+    justify-content: center;
 }
 
 .alacrity-desc-container-desc1{
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .alacrity-desc-desc1{

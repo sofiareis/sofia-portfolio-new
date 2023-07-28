@@ -52,12 +52,12 @@ const PatientViz = () => {
                                 PatientViz allows the clinician to import patient intake form responses into the application, and visualize this data against the clinic’s patient population. Also, users are able to filter the data to be visualized by conditional subpopulations (e.g. patients taking certain medications, patients with a certain set of symptoms, etc.). Analytical statistics such as the correlation between medications and diagnoses within the clinic’s population are also presented in a drill-down view. 
                             </div>
                             <div className="patientviz-desc-desc1-img">
-                                <img src={desc2}/>
+                                <img src={desc1}/>
                             </div>
                         </div>
                         <div className="patientviz-desc-container-desc2">
                             <div className="patientviz-desc-desc2-img">
-                                <img src={desc1}/>
+                                <img src={desc2}/>
                             </div>
                             <div className="patientviz-desc-desc2">
                                 The application also automatically generate individual patient reports. These patient reports contain sections outlining different areas of interest for each patient’s case. Including their current medications and diagnoses information, cross examination of medications and diagnoses against the population, free-text notes, non-medical interventions, and root causes.

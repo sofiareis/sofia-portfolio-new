@@ -45,12 +45,12 @@ const Alacrity = () => {
                                 <br/>The app automatically optimizes their personal calendar using algorithms to spread work out as evenly as possible
                             </div>
                             <div className="alacrity-desc-desc1-img">
-                                <img src={desc2}/>
+                                <img src={desc1}/>
                             </div>
                         </div>
                         <div className="alacrity-desc-container-desc2">
                             <div className="alacrity-desc-desc2-img">
-                                <img src={desc1}/>
+                                <img src={desc2}/>
                             </div>
                             <div className="alacrity-desc-desc2">
                                 Users can add tasks to the calendar by filling out the options which will then be presented on their calendar in the most optimized way.

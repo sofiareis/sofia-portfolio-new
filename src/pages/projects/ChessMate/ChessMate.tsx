@@ -47,14 +47,14 @@ const ChessMate = () => {
                                 ChessMate has an interactive user interface with AI support for different levels of chess proficiency. It contains a chess timer that enforces users to think on their feet.
                             </div>
                             <div className="chessmate-desc-buy-img">
-                                <img src={desc1}/>
-                                <img src={desc2}/>
+                                <img src={desc3}/>
+                                <img src={desc4}/>
                             </div>
                         </div>
                         <div className="chessmate-desc-container-sell">
                             <div className="chessmate-desc-sell-img">
-                                <img src={desc3}/>
-                                <img src={desc4}/>
+                                <img src={desc1}/>
+                                <img src={desc2}/>
                             </div>
                             <div className="chessmate-desc-sell">
                                 The app contains an achievement section where users can see which achievements they completed and which are in progress.
