@@ -1,4 +1,4 @@
-import "pages/projects/patientviz/patientviz.scss"
+import "pages/projects/Patientviz/Patientviz.scss"
 import 'pages/projects/variables.scss'
 
 import desc1 from '/patientviz/desc1.png'

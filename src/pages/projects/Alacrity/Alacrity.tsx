@@ -1,4 +1,4 @@
-import "pages/projects/alacrity/alacrity.scss"
+import "pages/projects/Alacrity/Alacrity.scss"
 import 'pages/projects/variables.scss'
 
 import logo from '/alacrity/Logo.png'
