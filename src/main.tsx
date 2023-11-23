@@ -9,3 +9,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <RouterProvider router={Router} />
   </React.StrictMode>,
 )
+
+
+//#F8EEE7
+//#edc7b7
+//#e3afbc
+//#eee2dc

@@ -1,7 +1,273 @@
+/*
 .home-container{
     min-height: 100vh;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.home-hello{
+    background-image: url('/Home-background.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-intro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.home-intro-title{
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.home-intro-subtitle{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 36px;
+}
+
+.home-intro-img{
+    margin: 25px;
+}
+
+.home-intro-contact{
+    margin-top: 80px;
+    display: flex;
+}
+
+.home-about{
+
+}
+
+.home-about-title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 91px;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 0px;
+}
+
+.home-about-text{
+    margin: 20px 80px;
+    margin-bottom: 30px;
+}
+
+.home-about-subtitle{
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.home-timeline{
+    margin: 20px 80px;
+}
+
+.home-about ul.home-timeline{
+    list-style-type: none;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 60px;
+}
+
+.home-about ul.home-timeline::before{
+    content: " ";
+    background: black;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    width: 1px;
+    top: 4px;
+    height: 100%;
+    z-index: 400;
+}
+
+.home-about li.home-timeline-item::before{
+    content: " ";
+    background: #AC626F;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+    left: -13px;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    z-index: 400;
+}
+
+.home-icons{
+    color:black;
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+}
+
+.home-skills{
+    background-color: #D9B6BA;
+}
+
+.home-skills-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.home-skills-item{
+    border-radius: 5px;
+    padding: 16px 32px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    font-size: 25px;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}
+*/
+
+.home-container{
+    min-height: 100vh;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-hello{
+    background-image: url('/Home-background.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-intro{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+.home-intro-title{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.home-intro-subtitle{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.home-intro-img{
+    margin: 25px;
+}
+
+.home-intro-contact{
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+}
+
+.home-about{
+
+}
+
+.home-about-title{
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 91px;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 0px;
+}
+
+.home-about-text{
+    margin: 20px 80px;
+    margin-bottom: 30px;
+}
+
+.home-about-subtitle{
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.home-timeline{
+    margin: 20px 80px;
+}
+
+.home-timeline-item {
+    margin-bottom: 30px;
+}
+
+.home-about ul.home-timeline{
+    list-style-type: none;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 60px;
+}
+
+.home-about ul.home-timeline::before{
+    content: " ";
+    background: black;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    width: 1px;
+    top: 4px;
+    height: 100%;
+    z-index: 400;
+}
+
+.home-about li.home-timeline-item::before{
+    content: " ";
+    background: #AC626F;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid black;
+    left: -13px;
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    z-index: 400;
+}
+
+.home-icons{
+    color:black;
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+}
+
+.home-skills{
+    background-color: #D9B6BA;
+}
+
+.home-skills-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+}
+
+.home-skills-item{
+    border-radius: 5px;
+    padding: 16px 32px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    font-size: 1.5rem;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}
+
+/*
 .home-image{
  background-image: url('/sofia.jpeg');   
  background-size: cover;
@@ -33,10 +299,4 @@
     padding: 25px 50px;
     text-align: center;
 } 
-
-.home-icons{
-    color:black;
-    height: 30px;
-    width: 30px;
-    padding-left: 9px;
-}
+*/

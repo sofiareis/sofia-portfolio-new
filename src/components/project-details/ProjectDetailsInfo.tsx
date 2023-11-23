@@ -1,5 +1,6 @@
 import sharity from '/sharity.png'
 import moko from '/moko.png'
+import onepiece from '/onepiece.png'
 import renew from '/renew.png'
 import chessie from '/chessie.png'
 import alacrity from '/alacrity.png'
@@ -7,9 +8,16 @@ import alacrity from '/alacrity.png'
 //import dancingrobot from '/dancingrobot.png'
 import careercue from '/careercue.png'
 //import boba from '/GIF.gif'
-import patientviz from '/patientviz.jpeg'
+import patientviz from '/patientviz.png'
 
 export const cards = [
+    {
+      title: 'Cards Tracker',
+      description: "A web app for managing your One Piece Card Game collection",
+      images: onepiece,
+      page: 'onepiece',
+
+    },
     {
       title: 'Sharity',
       description: "She + share + charity: a mobile app that connects users to women's shelters",
@@ -36,7 +44,7 @@ export const cards = [
 
     {
       title: 'CareerCue',
-      description: 'A web app that helps you practice for interviews by hearing you respond to questions',
+      description: 'A web app that helps you practice for interviews by giving you customized feedback',
       images: careercue,
       page: 'careercue',
   
@@ -44,12 +52,11 @@ export const cards = [
 
     {
       title: 'PatientViz',
-      description: 'A Desktop application to help physicians with the triage process',
+      description: 'A desktop app to help physicians of the BC Children’s Hospital with the triage process of patients',
       images: patientviz,
       page: 'patientviz',
-  
     },
-  
+
     {
       title: 'ChessMate',
       description: 'A chess engine that features a hardware-accelerated chess algorithm and an Android app',
@@ -60,7 +67,7 @@ export const cards = [
   
     {
       title: 'Alacrity',
-      description: 'Alacrity is a web app meant to help students manage their time',
+      description: 'A web app to help students manage their time and accomplish tasks',
       images: alacrity,
       page: 'alacrity',
   

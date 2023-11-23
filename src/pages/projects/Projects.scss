@@ -1,54 +1,126 @@
+.project-container{
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2.5rem;
+}
+
 .project-title{
-    margin-top: 60px;
-    font-size: 40px;
     text-align: center;
+    font-weight: 700;
+    font-size: 2.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .project-subtitle{
-    font-size: 20px;
+    font-size: 1.125rem; 
     text-align: center;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 1.25rem;
 }
 
 .project-list{
- padding-top: 20px;
- padding-bottom: 20px;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 
 .project-list-items{
     display: flex;
     height: 100%;
     flex-direction: column;
+    overflow: hidden;
 
+    &:hover {
+        transform: scale(1.03);
+    }
 }
 
-.project-list-title{
-    background-color: rgba(181, 190, 152, 0.4);
-}
+.custom-card-root {
+    background-color: #F0F0F0 !important;
+    border-radius: 0.2rem !important;
+    overflow: hidden !important;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1) !important;
+    transition: transform 0.2s ease-in-out !important;
+  }
+
+.project-list-image-container {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+  }
 
 .project-list-image{
-    padding-top: 56.25%, 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-list-about{
     flex-grow: 1;
-    background-color: rgba(181, 190, 152, 0.4);
 }
 
+.project-list-title{
+    font-size: 21px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    margin: 0px;
+}
 
-.project-list-action{
-    display: flex; 
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    background-color:  rgba(181, 190, 152, 0.4);
+.project-list-desc{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px;
+    line-height: 1.5;
 }
 
 .project-list-view{
-    font-size: 18px;
-    color: black;
+    color: inherit;;
     text-decoration: none;
 }
 
 .details-about p {
     white-space: pre-wrap;
+}
+
+//Smaller screens adapt
+@media screen and (max-width: 1030px) and (min-width: 900px){
+    .project-list-title{
+        font-size: 1rem; 
+        font-weight: 500;
+    }
+    
+    .project-list-desc{
+        font-size: 0.8125rem;
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width: 750px) and (min-width: 600px){
+    .project-list-title{
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+    
+    .project-list-desc{
+        font-size: 0.6875rem; 
+        font-weight: 400;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .project-list-title{
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+    
+    .project-list-desc{
+        font-size: 0.6875rem; 
+        font-weight: 400;
+    }
+
 }

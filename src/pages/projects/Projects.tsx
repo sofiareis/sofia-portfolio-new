@@ -2,36 +2,38 @@ import 'pages/projects/Projects.scss'
 import {cards} from 'components/project-details/ProjectDetailsInfo'
 import { Card, CardActions, CardContent, CardHeader, CardMedia, Container, Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import { padding } from '@mui/system';
 
 const Projects = () => {
     return (    
-        <div>
-          <p className="project-title">My Projects</p>
-          <p className="project-subtitle">Feel free to take a look!</p>
+        <div className='project-container'>
+          <p className="project-title">MY PROJECTS</p>
+          <p className="project-subtitle">A compilation of my personal, hackathon, and school projects</p>
           <Container className="project-list">
             <Grid container spacing={4}>
               {cards.map((card) => (
                 <Grid item key={card.title} xs={12} sm={6} md={4}>
-                  <Card className="project-list-items">
-                    <CardHeader
-                      title={card.title}
-                      titleTypographyProps={{ align: 'center' }}
-                      className="project-list-title"
-                    />
+                  <Card className="project-list-items" classes={{ root: "custom-card-root" }} >
+                  <Link to={card.page} className="project-list-view">
                     <CardMedia
-                      className="project-list-image"
-                      image={card.images}
-                    />
-                    <CardContent className="project-list-about">
-                      <Typography>
+                      className="project-list-image-container"
+                      component="div"
+                    >
+                      <img
+                        className="project-list-image"
+                        src={card.images}
+                        alt={card.title}
+                      />
+                    </CardMedia>
+                    <CardContent className="project-list-about" style={{paddingBottom: '10px'}}>
+                      <p className='project-list-title'>
+                        {card.title.toUpperCase()}
+                      </p>
+                      <p className='project-list-desc'>
                         {card.description}
-                      </Typography>
+                      </p>
                     </CardContent>
-                    <CardActions className="project-list-action">
-                      <Link to={card.page} className="project-list-view">
-                        VIEW
                     </Link>  
-                    </CardActions>
                   </Card>
                 </Grid>
               ))}
