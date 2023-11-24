@@ -1,11 +1,9 @@
-import { lazy, Suspense } from 'react';
-import { createBrowserRouter } from 'react-router-dom';
+import React, { lazy, Suspense } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import PageLoading from 'components/page-loading/PageLoading';
-import Page from 'components/page/Page';
-import Navbar from 'components/navbar/Navbar'
-import paths from 'routes/paths';
-import Footer from 'components/footer/Footer';
+import paths from 'routes/paths';;
+import Layout from 'components/layout/Layout';
 
 const Home = lazy(() => import('pages/home/Home'));
 const PageNotFound = lazy(() => import('pages/not-found/NotFound'));
@@ -26,11 +24,9 @@ interface Routes {
 
 const getRouteElement = (Component: React.ElementType): React.ReactNode => (
    <Suspense fallback={<PageLoading />}>
-      <Page>
-         <Navbar />
+      <Layout>
          <Component />
-         <Footer />
-      </Page>
+      </Layout>
    </Suspense>
 );
 
@@ -48,4 +44,12 @@ const routes: Routes[] = [
    { path: paths.ALACRITY, element: getRouteElement(Alacrity) },
 ];
 
-export default createBrowserRouter(routes);
+const Router: React.FC = () => (
+     <Routes>
+       {routes.map((route) => (
+         <Route key={route.path} {...route} />
+       ))}
+     </Routes>
+ );
+ 
+ export default Router;

@@ -1,4 +1,36 @@
-* {
-  margin: 0;
-  padding: 0; 
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
+
+.main-container{
+  max-width: 1600px; 
+  margin: auto; 
+  padding: 0px; 
+}
+
+/*
+.home-about{
+    max-width: 1400px; 
+    margin: auto; 
+    padding: 30px 90px;
+}
+
+
+.home-about-title{
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 40px 0px;
+    margin: 0px;
+}
+*/
+/*
+//#F8EEE7
+//#edc7b7
+//#e3afbc
+//#D9BDC5
+
+//#264653; //#37323e;//#3C1B43;
+*/

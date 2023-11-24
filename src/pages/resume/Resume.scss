@@ -1,4 +1,251 @@
 .resume-container{
+    margin: 80px 60px;
+}
+
+.resume-background{
+    max-width: 1400px; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: .8fr 2fr;
+    align-items: flex-start;
+    padding: 50px 60px;
+    background-color:  #E9EAEC;
+}
+
+.resume-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-title-container {
+    border-bottom: 2px solid #333;
+    margin-bottom: 15px; 
+}
+
+.resume-title{
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0px;
+    padding-bottom: 10px;
+    align-self: flex-start;
+    color:  #4E2D36 //4E2D36  //#60656F; //27161A
+}
+
+.resume-column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-start;
+}
+
+.resume-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px; 
+}
+
+.resume-headings{
+    font-size: 1.25rem;
+    margin-bottom: 4px;
+    font-weight: bold;
+    color: #27161A;
+}
+
+.resume-where{
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+
+.resume-list{
+    padding-left: 20px;
+}
+
+.resume-items{
+    padding-bottom: 10px;
+}
+
+.skills-container{
+    margin-right: 20px;
+    ul{
+        list-style-type: square;
+        padding-left: 20px;
+        margin: 0px;
+    }
+
+    li{
+        margin: 10px 0px;
+    }
+}
+
+.skills-small{
+    display: none;
+    visibility: hidden;
+}
+
+
+.skills-info{
+    display: flex;
+    flex-direction: column;
+} 
+
+.skills-heading{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 15px 0px;
+    margin-top: 0px;
+    color: #4E2D36  //#60656F; //27161A
+}
+
+.resume-edu{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.resume-link{
+    text-decoration: none;
+    color: #4E2D36;
+    font-weight: 500;
+
+    &:hover{
+        font-weight: 600;
+    }
+}
+
+
+.resume-skills{
+    max-width: none;
+}
+
+.resume-skills-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+
+.resume-skills-item{
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin-bottom: 12px;
+    margin-right: 20px;
+    background: rgba(153,153,153,.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
+}
+
+@media screen and (max-width: 800px) {    
+    .resume-background{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills-container{
+        display: none;
+        visibility: hidden;
+    }
+    
+    .skills-small{
+        display: block;
+        visibility: visible;
+        margin-bottom: 25px;
+    }
+
+    .skills-heading{
+        margin: 5px 0;
+    }
+
+    .skills-lang{
+        margin: 5px 0;
+    }
+
+    .resume-skills-item{
+        padding: 10px 20px;
+        margin-bottom: 12px;
+        margin-right: 15px;
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume-container{
+        font-size: 0.8rem;
+        margin: 80px 40px;
+    }
+
+    .resume-title{
+        font-size: 1.5rem;
+    }
+
+    .resume-headings{
+        font-size: 1rem;
+    }
+
+    .resume-background{
+        padding: 50px 40px;
+    }
+
+    .skills-heading{
+        font-size: 1rem;
+    }
+
+    .resume-skills-item{
+        padding: 8px 16px;
+        margin-bottom: 12px;
+        margin-right: 12px;
+        font-size: 0.7rem;
+    }
+
+}    
+
+@media screen and (max-width: 450px) {
+    .resume-container{
+        font-size: 0.65rem;
+        margin: 50px 20px;
+    }
+
+    .resume-title{
+        font-size: 1.1rem;
+    }
+
+    .resume-title-container{
+        margin-bottom: 10px;   
+    }
+
+    .resume-headings{
+        font-size: 0.7rem;
+    }
+
+    .resume-background{
+        padding: 30px 20px;
+    }
+
+    .skills-heading{
+        font-size: 0.7rem;
+        margin-bottom: 0px;
+    }
+
+    .resume-skills-item{
+        padding: 5px 10px;
+        margin-bottom: 10px;
+        margin-right: 8px;
+        font-size: 0.6rem;
+    }
+
+    .resume-info{
+        margin-bottom: 10px;
+    }
+
+    .skills-small{
+        margin-bottom: 10px;
+    }
+
+} 
+
+
+/*
+.resume-container{
     display: flex;
     flex-direction: column;
     margin: 50px;
@@ -91,3 +338,4 @@
         flex-direction: column;
     } 
 }
+*/

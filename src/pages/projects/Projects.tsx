@@ -1,8 +1,7 @@
 import 'pages/projects/Projects.scss'
 import {cards} from 'components/project-details/ProjectDetailsInfo'
-import { Card, CardActions, CardContent, CardHeader, CardMedia, Container, Grid, Typography } from "@mui/material";
+import { Card, CardContent, CardMedia, Container, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
-import { padding } from '@mui/system';
 
 const Projects = () => {
     return (    
