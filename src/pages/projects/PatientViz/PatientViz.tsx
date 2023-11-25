@@ -5,7 +5,8 @@ import desc1 from '/patientviz/desc1.png'
 import desc2 from '/patientviz/desc2.png'
 import doctor from '/patientviz/doctor.png'
 import patient from '/patientviz/patient.png'
-import tech from '/patientviz/tech.svg'
+import ProjectTech from "components/project-tech/ProjectTech"
+import { technologies } from "components/project-tech/technologies"
 
 
 const PatientViz = () => {
@@ -66,38 +67,7 @@ const PatientViz = () => {
                     </div>
                 </div>
             </div>
-            <div className="patientviz-tech-container">
-                <div className="patientviz-tech">
-                    <div className="patientviz-tech-column">
-                        <div className="patientviz-title">
-                            Product Technologies
-                        </div>
-                        <div className="patientviz-tech-img">
-                            <img src={tech}/>
-                        </div>
-                    </div>
-                    <div className="patientviz-tech-desc">
-                        <div className="patientviz-tech-front">
-                            Frontend
-                            <div className="patientviz-tech-label">
-                                Figma UI design
-                            </div>
-                            <div className="patientviz-tech-label">
-                                React
-                            </div>
-                            <div className="patientviz-tech-label">
-                                Electron
-                            </div>
-                        </div>
-                        <div className="patientviz-tech-back">
-                            Backend
-                            <div className="patientviz-tech-label">
-                                Python Scripts
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ProjectTech {...technologies.patientviz} />
         </div>
     );
  };

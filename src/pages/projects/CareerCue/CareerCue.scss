@@ -1,8 +1,6 @@
 .careercue-container{
-    font-size: var(--font-size);
     align-items: center;
     justify-content: center;
-    line-height: var(--line-height);
 }
 
 .careercue-banner-container{
@@ -77,6 +75,7 @@
 .careercue-title{
     font-size: var(--title-size);
     margin-bottom: var(--title-margin-bottom);
+    font-weight: var(--title-weight);
 }
 
 .careercue-inspo-img img{
@@ -151,98 +150,6 @@
     max-width: 450px;
 }
 
-.careercue-tech-container{
-    background-color: var(--careercue-colour);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-tech{
-    max-width: var(--max-width);
-    margin: var(--margin);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.careercue-tech-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
-.careercue-tech-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-tech-desc{
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 60px;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.careercue-tech-front{
-    margin-right: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-tech-back{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-tech-label{
-    color: white;
-    width: 253px;
-    height: 45px;
-    background: var(--careercue-label);
-    border-radius: 30px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.careercue-prizes-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-prizes{
-    max-width: var(--max-width);
-    margin: 50px 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-prizes-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 140px;
-}
-
-.careercue-prize-img{
-    margin-left: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-
 //Smaller screens adapt
 
 //1320
@@ -287,10 +194,6 @@
         margin-left: 0px;
     }
 
-    .careercue-tech-column{
-        margin-right: 0px;
-    }
-
     .careercue-desc-feed{
         margin-right: 0px;
     }
@@ -302,22 +205,6 @@
     .careercue-desc-feed-img img{
         max-height: 400px;
         max-width: 400px;
-    }
-
-    .careercue-tech-desc{
-        margin-left: 0px;
-    }
-
-    .careercue-tech-front{
-        margin-right: 40px;
-    }
-
-    .careercue-prizes-column{
-        margin-right: 50px;
-    }
-    
-    .careercue-prize-img{
-        margin-left: 50px;
     }
 }
 
@@ -372,18 +259,6 @@
 
     .careercue-desc-container-feed{
         margin-left: 20px;
-    }
-
-    .careercue-tech-front{
-        margin-right: 30px;
-    }
-
-    .careercue-prizes-column{
-        margin-right: 30px;
-    }
-    
-    .careercue-prize-img{
-        margin-left: 30px;
     }
 }
 
@@ -488,42 +363,10 @@
         max-height: 400px;
         max-width: 400px;
     }
-    
 
     .careercue-desc-container-feed{
         margin-left: 10px;
     }
-    
-    .careercue-tech{
-        flex-direction: column;
-    }
-
-    .careercue-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .careercue-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        justify-content: center;
-    }
-
-    .careercue-prizes{
-        flex-direction: column;
-    }
-
-    .careercue-prizes-column{
-        margin-right: 0px;
-        text-align: center;
-    }
-    
-    .careercue-prize-img{
-        margin-left: 0px;
-        justify-content: center;
-    }
-    
 }
 
 //600
@@ -619,47 +462,4 @@
         max-height: 300px;
         max-width: 300px;
     }
-    
-    .careercue-tech{
-        flex-direction: column;
-    }
-
-    .careercue-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .careercue-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .careercue-tech-front{
-        margin-right: 0px;
-        padding-bottom: 30px;
-    }
-
-    .careercue-prizes{
-        flex-direction: column;
-    }
-
-    .careercue-prizes-column{
-        margin-right: 0px;
-        text-align: center;
-    }
-    
-    .careercue-prize-img{
-        margin-left: 0px;
-        justify-content: center;
-    }
-
-    .careercue-prize-img img{
-        max-width: 250px;
-        max-height: 250px;
-    }
-    
 }

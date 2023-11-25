@@ -1,10 +1,9 @@
 body {
-    --margin: 80px 110px;
-    --max-width: 1354px;
-    --font-size: 18px;
-    --title-size: 40px;
+    --margin: 80px 100px;
+    --max-width: 1300px;
+    --title-size: 2.25rem;
+    --title-weight: 600;
     --title-margin-bottom: 20px;
-    --line-height: 2;
     --sharity-colour:  #739AAB;
     --sharity-label: #D38796;
     --renew-colour:  #839788;
@@ -22,6 +21,29 @@ body {
     --alacrity-colour2: linear-gradient(360deg, white, #F5C0E2);
     --alacrity-colour3:  #1EAFF8;
     --alacrity-label: #F4B5DC;
+}
+
+/*
+.project-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.25rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+*/
+
+.project-desc-title{
+    font-size: var(--title-size);
+    margin-bottom: var(--title-margin-bottom);
+    font-weight: var(--title-weight);
+    text-align: center;
+}
+
+.project-desc-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 //1060

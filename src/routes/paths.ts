@@ -14,4 +14,5 @@ interface Paths {
     PATIENTVIZ: '/projects/patientviz',
     CHESSMATE: '/projects/chessmate',
     ALACRITY: '/projects/alacrity',
+    ONEPIECE: 'projects/onepiece'
  } as Paths;

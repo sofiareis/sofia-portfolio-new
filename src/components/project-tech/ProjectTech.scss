@@ -1,0 +1,134 @@
+/*TECH CSS*/
+
+.project-tech-container{
+    //background-color: var(--sharity-colour);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-tech{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-tech-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+.project-tech-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-tech-desc{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-tech-front{
+    margin-right: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-tech-back{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.project-tech-label{
+    width: 253px;
+    height: 45px;
+    //background: var(--sharity-label);
+    border-radius: 30px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1320px) {
+    .project-tech-column{
+        margin-right: 0px;
+    }
+
+    .project-tech-desc{
+        margin-left: 0px;
+    }
+
+    .project-tech-front{
+        margin-right: 40px;
+    }
+
+}
+
+//1060
+@media screen and (max-width: 1060px) {
+    .project-tech-front{
+        margin-right: 30px;
+    }
+}
+
+//960
+@media screen and (max-width: 900px) {
+    .project-tech{
+        flex-direction: column;
+    }
+
+    .project-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+}
+
+//600
+@media screen and (max-width: 600px) {
+    .project-tech{
+        flex-direction: column;
+    }
+
+    .project-tech-column{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-tech-desc{
+        margin-top: 10px;
+        margin-left: 0px;
+        
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .project-tech-front{
+        margin-right: 0px;
+        padding-bottom: 30px;
+    }
+
+}

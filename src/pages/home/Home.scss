@@ -38,12 +38,12 @@
     height: 40px;
     width: 40px;
     padding-left: 15px;
+    transition: color 0.3s; 
 }
 
 .home-icons:hover {
     color: #AC626F;
 }
-
 
 .home-img-container{
     margin-left: 10px;
@@ -51,14 +51,14 @@
 }
 
 .home-about{
-    max-width: 1400px; 
+    max-width: 1300px; 
     margin: auto; 
     padding: 30px 90px;
 }
 
 .home-about-title{
     font-weight: 600;
-    font-size: 2.2rem;
+    font-size: var(--title-size);
     text-align: center;
     padding: 40px 0px;
     margin: 0px;

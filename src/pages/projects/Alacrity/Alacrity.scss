@@ -1,8 +1,6 @@
 .alacrity-container{
-    font-size: var(--font-size);
     align-items: center;
     justify-content: center;
-    line-height: var(--line-height);
 }
 
 .alacrity-banner-container{
@@ -142,70 +140,6 @@
     padding-right: 50px;
 }
 
-.alacrity-tech-container{
-    background-color: var(--alacrity-colour3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.alacrity-tech{
-    max-width: var(--max-width);
-    margin: var(--margin);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.alacrity-tech-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
-.alacrity-tech-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.alacrity-tech-desc{
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 60px;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.alacrity-tech-front{
-    margin-right: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.alacrity-tech-back{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.alacrity-tech-label{
-    width: 253px;
-    height: 45px;
-    background: var(--alacrity-label);
-    border-radius: 30px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-
 //Smaller screens adapt
 
 //1320
@@ -228,10 +162,6 @@
         margin-left: 0px;
     }
 
-    .alacrity-tech-column{
-        margin-right: 0px;
-    }
-
     .alacrity-desc-desc2{
         margin-right: 0px;
     }
@@ -243,14 +173,6 @@
     .alacrity-desc-desc2-img img{
         max-height: 400px;
         max-width: 400px;
-    }
-
-    .alacrity-tech-desc{
-        margin-left: 0px;
-    }
-
-    .alacrity-tech-front{
-        margin-right: 40px;
     }
 }
 
@@ -289,10 +211,6 @@
 
     .alacrity-desc-container-desc2{
         margin-left: 20px;
-    }
-
-    .alacrity-tech-front{
-        margin-right: 30px;
     }
 }
 
@@ -387,23 +305,6 @@
         max-height: 400px;
         max-width: 400px;
     }
-    
-    .alacrity-tech{
-        flex-direction: column;
-    }
-
-    .alacrity-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .alacrity-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        justify-content: center;
-    }
-    
 }
 
 //600
@@ -486,28 +387,5 @@
     .alacrity-desc-desc2-img img{
         max-height: 300px;
         max-width: 300px;
-    }
-    
-    .alacrity-tech{
-        flex-direction: column;
-    }
-
-    .alacrity-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .alacrity-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .alacrity-tech-front{
-        margin-right: 0px;
-        padding-bottom: 30px;
     }
 }

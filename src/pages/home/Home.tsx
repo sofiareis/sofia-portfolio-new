@@ -1,6 +1,6 @@
 import "pages/home/Home.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { links } from 'components/footer/Links';
+import { links } from 'components/Links';
 import sofia from '/Sofia1.png'
 import { skills } from "./Skills";
 
@@ -39,12 +39,6 @@ const Home = () => {
                         <a className="home-about-subtitle">Ansys</a>
                         <p>     
                             My role as an R&D verification engineer at Ansys provided me with software testing skills and I further increased my programming abilities, particularly in Python. My primary responsibility was developing and maintaining automated tests in Python to ensure the reliability and quality of their Lumerical simulation software. In addition to automation, I delved into regression testing using the Squish testing tool and performed manual testing on release candidate software builds. I was able to improve my teamwork skills as I frequently engaged with cross-functional engineering teams to replicate and troubleshoot customer issues.
-                        </p>
-                    </li>
-                    <li className="home-timeline-item">
-                        <a className="home-about-subtitle">IRP</a>
-                        <p>     
-                            Write about IRP
                         </p>
                     </li>
                 </ul>

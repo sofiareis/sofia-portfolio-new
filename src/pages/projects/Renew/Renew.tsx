@@ -5,6 +5,10 @@ import desc2 from '/renew/desc2.png'
 import desc3 from '/renew/desc3.png'
 import tech from '/renew/tech.svg'
 import prize from '/renew/prize.svg'
+import ProjectPrize from "components/project-prize/ProjectPrize"
+import { prizes } from "components/project-prize/prizes"
+import ProjectTech from "components/project-tech/ProjectTech"
+import { technologies } from "components/project-tech/technologies"
 
 const Renew = () => {
     return (
@@ -54,61 +58,8 @@ const Renew = () => {
                     </div>
                 </div>
             </div>
-            <div className="renew-tech-container">
-                <div className="renew-tech">
-                    <div className="renew-tech-column">
-                        <div className="renew-title">
-                            Product Technologies
-                        </div>
-                        <div className="renew-tech-img">
-                            <img src={tech}/>
-                        </div>
-                    </div>
-                    <div className="renew-tech-desc">
-                        <div className="renew-tech-front">
-                            Frontend
-                            <div className="renew-tech-label">
-                                Figma UI design
-                            </div>
-                            <div className="renew-tech-label">
-                                React Native
-                            </div>
-                            <div className="renew-tech-label">
-                                Redux
-                            </div>
-                        </div>
-                        <div className="renew-tech-back">
-                            Backend
-                            <div className="renew-tech-label">
-                                Google Maps API
-                            </div>
-                            <div className="renew-tech-label">
-                                Node.js
-                            </div>
-                            <div className="renew-tech-label">
-                                Firebase
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="renew-prizes-container">
-                <div className="renew-prizes">
-                    <div className="renew-prizes-column">
-                        <div className="renew-title">
-                            Product Prizes
-                        </div>
-                        <div className="renew-prizes-desc">
-                            <p>- 3rd Place at cmd-f Hackathon 2022</p>
-                            <p>- UBC Project Incubation Prize </p>
-                            <p>- SAP: Most Coherent UX/UI Design Using the UI5 SDK and/or Web Components</p>
-                        </div>
-                    </div>
-                    <div className="renew-prize-img">
-                        <img src={prize}/>
-                    </div>
-                </div>
-            </div>
+            <ProjectTech {...technologies.renew} />
+            <ProjectPrize {...prizes.renew}/>
         </div>
     );
  };

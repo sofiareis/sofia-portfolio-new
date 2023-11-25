@@ -5,8 +5,11 @@ import logo from '/careercue/Logo.png'
 import desc1 from '/careercue/desc1.png'
 import desc2 from '/careercue/desc2.png'
 import inspo from '/careercue/inspo.png'
-import tech from '/careercue/tech.svg'
 import prize from '/careercue/prize.svg'
+import ProjectTech from "components/project-tech/ProjectTech"
+import { technologies } from "components/project-tech/technologies"
+import ProjectPrize from "components/project-prize/ProjectPrize"
+import { prizes } from "components/project-prize/prizes"
 
 
 const CareerCue = () => {
@@ -69,56 +72,8 @@ const CareerCue = () => {
                     </div>
                 </div>
             </div>
-            <div className="careercue-tech-container">
-                <div className="careercue-tech">
-                    <div className="careercue-tech-column">
-                        <div className="careercue-title">
-                            Product Technologies
-                        </div>
-                        <div className="careercue-tech-img">
-                            <img src={tech}/>
-                        </div>
-                    </div>
-                    <div className="careercue-tech-desc">
-                        <div className="careercue-tech-front">
-                            Frontend
-                            <div className="careercue-tech-label">
-                                Figma UI design
-                            </div>
-                            <div className="careercue-tech-label">
-                                React
-                            </div>
-                        </div>
-                        <div className="careercue-tech-back">
-                            Backend
-                            <div className="careercue-tech-label">
-                                Flask
-                            </div>
-                            <div className="careercue-tech-label">
-                                Cohere Classify API
-                            </div>
-                            <div className="careercue-tech-label">
-                                SMTP/SSL
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="careercue-prizes-container">
-                <div className="careercue-prizes">
-                    <div className="careercue-prizes-column">
-                        <div className="careercue-title">
-                            Product Prizes
-                        </div>
-                        <div className="careercue-prizes-desc">
-                            <p>- 3rd Place at cmd-f Hackathon 2023</p>
-                        </div>
-                    </div>
-                    <div className="careercue-prize-img">
-                        <img src={prize}/>
-                    </div>
-                </div>
-            </div>
+            <ProjectTech {...technologies.careercue} />
+            <ProjectPrize {...prizes.careercue}/>
         </div>
     );
  };

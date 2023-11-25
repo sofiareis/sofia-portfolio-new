@@ -1,8 +1,6 @@
 .chessmate-container{
-    font-size: var(--font-size);
     align-items: center;
     justify-content: center;
-    line-height: var(--line-height);
 }
 
 .chessmate-banner-container{
@@ -138,70 +136,6 @@
    // margin-left: 40px;
 }
 
-.chessmate-tech-container{
-    background-color: var(--chessmate-colour2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.chessmate-tech{
-    max-width: var(--max-width);
-    margin: var(--margin);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.chessmate-tech-column{
-    display: flex;
-    flex-direction: column;
-}
-
-.chessmate-tech-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.chessmate-tech-desc{
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.chessmate-tech-front{
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.chessmate-tech-back{
-    margin-right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.chessmate-tech-label{
-    color: white;
-    width: 253px;
-    height: 45px;
-    background: var(--chessmate-label);
-    border-radius: 30px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-
 //Smaller screens adapt
 
 //1320
@@ -242,22 +176,6 @@
         max-width: 300px;
         padding: 15px;
     }
-
-    .chessmate-tech-desc{
-        margin-left: 0px;
-    }
-
-    .chessmate-tech-img{
-        max-width: 200px;
-    }
-
-    .chessmate-tech-front{
-        margin-right: 10px;
-    }
-
-    .chessmate-tech-back{
-        margin-right: 10px;
-    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -294,26 +212,6 @@
 
     .chessmate-desc-container-sell{
         margin-left: 20px;
-    }
-
-    .chessmate-tech{
-        flex-direction: column;
-    }
-
-    .chessmate-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .chessmate-tech-front{
-        padding: 5px;
-        margin: 0px;
-    }
-
-    .chessmate-tech-back{
-        padding: 5px;
-        margin: 0px;
     }
 }
 
@@ -391,34 +289,6 @@
     .chessmate-desc-container-sell{
         margin-left: 10px;
     }
-    
-    .chessmate-tech{
-        flex-direction: column;
-    }
-
-    .chessmate-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .chessmate-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .chessmate-tech-front{
-        margin-right: 0px;
-        padding-bottom: 30px;
-    }
-
-    .chessmate-tech-back{
-        margin-right: 0px;
-        padding-bottom: 30px;
-    }
-    
 }
 
 //600
@@ -507,32 +377,4 @@
         max-height: 200px;
         max-width: 200px;
     }
-    
-    .chessmate-tech{
-        flex-direction: column;
-    }
-
-    .chessmate-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .chessmate-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .chessmate-tech-front{
-        margin-right: 0px;
-        padding-bottom: 30px;
-    }
-
-    .chessmate-tech-back{
-        margin-right: 0px;
-        padding-bottom: 30px;
-    }
-    
 }

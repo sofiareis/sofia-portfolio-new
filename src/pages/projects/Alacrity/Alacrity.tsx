@@ -5,7 +5,8 @@ import logo from '/alacrity/Logo.png'
 import desc1 from '/alacrity/calendar.png'
 import desc2 from '/alacrity/task.png'
 import inspo from '/alacrity/home.png'
-import tech from '/alacrity/tech.svg'
+import ProjectTech from "components/project-tech/ProjectTech"
+import { technologies } from "components/project-tech/technologies"
 
 
 const Alacrity = () => {
@@ -59,41 +60,7 @@ const Alacrity = () => {
                     </div>
                 </div>
             </div>
-            <div className="alacrity-tech-container">
-                <div className="alacrity-tech">
-                    <div className="alacrity-tech-column">
-                        <div className="alacrity-title">
-                            Product Technologies
-                        </div>
-                        <div className="alacrity-tech-img">
-                            <img src={tech}/>
-                        </div>
-                    </div>
-                    <div className="alacrity-tech-desc">
-                        <div className="alacrity-tech-front">
-                            Frontend
-                            <div className="alacrity-tech-label">
-                                Figma UI design
-                            </div>
-                            <div className="alacrity-tech-label">
-                                React
-                            </div>
-                            <div className="alacrity-tech-label">
-                                Apache Server
-                            </div>
-                        </div>
-                        <div className="alacrity-tech-back">
-                            Backend
-                            <div className="alacrity-tech-label">
-                                Flask
-                            </div>
-                            <div className="alacrity-tech-label">
-                                MySQL
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ProjectTech {...technologies.alacrity} />
         </div>
     );
  };

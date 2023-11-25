@@ -16,6 +16,7 @@ const CareerCue = lazy(() => import('pages/projects/CareerCue/CareerCue'));
 const PatientViz = lazy(() => import('pages/projects/PatientViz/PatientViz'));
 const ChessMate = lazy(() => import('pages/projects/ChessMate/ChessMate'));
 const Alacrity = lazy(() => import('pages/projects/Alacrity/Alacrity'));
+const OnePiece = lazy(() => import('pages/projects/OnePiece/OnePiece'));
 
 interface Routes {
    path: string;
@@ -42,6 +43,7 @@ const routes: Routes[] = [
    { path: paths.PATIENTVIZ, element: getRouteElement(PatientViz) },
    { path: paths.CHESSMATE, element: getRouteElement(ChessMate) },
    { path: paths.ALACRITY, element: getRouteElement(Alacrity) },
+   { path: paths.ONEPIECE, element: getRouteElement(OnePiece) },
 ];
 
 const Router: React.FC = () => (

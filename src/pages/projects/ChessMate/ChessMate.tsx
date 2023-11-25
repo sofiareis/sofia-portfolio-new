@@ -8,6 +8,8 @@ import desc3 from '/chessmate/Landing.png'
 import desc2 from '/chessmate/Matches.png'
 import pawn from '/chessmate/pawn.png'
 import tech from '/chessmate/tech.svg'
+import ProjectTech from "components/project-tech/ProjectTech"
+import { technologies } from "components/project-tech/technologies"
 
 
 const ChessMate = () => {
@@ -64,47 +66,7 @@ const ChessMate = () => {
                     </div>
                 </div>
             </div>
-            <div className="chessmate-tech-container">
-                <div className="chessmate-tech">
-                    <div className="chessmate-tech-column">
-                        <div className="chessmate-title">
-                            Product Technologies
-                        </div>
-                        <div className="chessmate-tech-img">
-                            <img src={tech}/>
-                        </div>
-                    </div>
-                    <div className="chessmate-tech-desc">
-                        <div className="chessmate-tech-front">
-                            Frontend
-                            <div className="chessmate-tech-label">
-                                Figma UI design
-                            </div>
-                            <div className="chessmate-tech-label">
-                                Android Studio
-                            </div>
-                        </div>
-                        <div className="chessmate-tech-back">
-                            Backend
-                            <div className="chessmate-tech-label">
-                                Node.js
-                            </div>
-                            <div className="chessmate-tech-label">
-                                MySQL
-                            </div>
-                        </div>
-                        <div className="chessmate-tech-back">
-                            Hardware
-                            <div className="chessmate-tech-label">
-                                ARM chip
-                            </div>
-                            <div className="chessmate-tech-label">
-                                DE1-SoC
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ProjectTech {...technologies.chessmate} />
         </div>
     );
  };

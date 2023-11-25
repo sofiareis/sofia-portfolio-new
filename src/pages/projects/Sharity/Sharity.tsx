@@ -3,10 +3,15 @@ import 'pages/projects/variables.scss'
 import logo from '/sharity/Logo.png'
 import user1 from '/sharity/user1.png'
 import user2 from '/sharity/user2.png'
+import inspo from '/sharity/inspo.png'
 import charity1 from '/sharity/charity1.png'
 import charity2 from '/sharity/charity2.png'
-import tech from '/sharity/sharityTech.svg'
-import prize from '/sharity/prize.svg'
+import { projectLinks } from "components/Links"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import ProjectTech from "components/project-tech/ProjectTech"
+import { prizes } from "components/project-prize/prizes"
+import { technologies } from "components/project-tech/technologies"
+import ProjectPrize from "components/project-prize/ProjectPrize"
 
 const Sharity = () => {
     return (
@@ -37,15 +42,19 @@ const Sharity = () => {
                         <div className="sharity-inspo-desc">
                             Inspired by the words: she, share, and charity, we created Sharity, a female empowerment donation app. Sharity promotes women empowerment in the community and sustainability by encouraging users to donate their used or new items to local female’s shelters. 
                         </div>
+                        <div className="project-code">
+                            <p>Check out the code!</p>
+                            <a target="_blank" href={projectLinks.sharity}>
+                                <FontAwesomeIcon icon={projectLinks.icon} className='home-icons'/>
+                            </a>
+                        </div>
                     </div>
                     <div className="sharity-inspo-banner">
-                        <p>Support charities.</p>
-                        <p>Support women.</p>
-                        <p>Support giving.</p>
+                        <img src={inspo}/>
                     </div>
                 </div>
             </div>
-            <div className="sharity-desc-container">
+            <div className="project-desc-container">
                 <div className="sharity-desc">
                     <div className="sharity-title">
                         Product Description
@@ -79,58 +88,8 @@ const Sharity = () => {
                     </div>
                 </div>
             </div>
-            <div className="sharity-tech-container">
-                <div className="sharity-tech">
-                    <div className="sharity-tech-column">
-                        <div className="sharity-title">
-                            Product Technologies
-                        </div>
-                        <div className="sharity-tech-img">
-                            <img src={tech}/>
-                        </div>
-                    </div>
-                    <div className="sharity-tech-desc">
-                        <div className="sharity-tech-front">
-                            Frontend
-                            <div className="sharity-tech-label">
-                                Figma UI design
-                            </div>
-                            <div className="sharity-tech-label">
-                                React Native
-                            </div>
-                        </div>
-                        <div className="sharity-tech-back">
-                            Backend
-                            <div className="sharity-tech-label">
-                                Google Maps API
-                            </div>
-                            <div className="sharity-tech-label">
-                                Node.js
-                            </div>
-                            <div className="sharity-tech-label">
-                                Firebase
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="sharity-prizes-container">
-                <div className="sharity-prizes">
-                    <div className="sharity-prizes-column">
-                        <div className="sharity-title">
-                            Product Prizes
-                        </div>
-                        <div className="sharity-prizes-desc">
-                            <p>- Pinnacle Prize: Top Project</p>
-                            <p>- Hootsuite #SocialForGood Award</p>
-                            <p>- Telus Women's Health Award (Best Pitch)</p>
-                        </div>
-                    </div>
-                    <div className="sharity-prize-img">
-                        <img src={prize}/>
-                    </div>
-                </div>
-            </div>
+            <ProjectTech {...technologies.sharity} />
+            <ProjectPrize {...prizes.sharity}/>
         </div>
     );
  };

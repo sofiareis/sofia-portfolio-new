@@ -11,6 +11,8 @@ import leaf2 from '/moko/leaf2.png'
 import leaf3 from '/moko/leaf3.png'
 import tech from '/moko/tech.svg'
 import eco from '/moko/ecology.svg'
+import ProjectTech from "components/project-tech/ProjectTech"
+import { technologies } from "components/project-tech/technologies"
 
 
 const Moko = () => {
@@ -80,45 +82,7 @@ const Moko = () => {
                     </div>
                 </div>
             </div>
-            <div className="moko-tech-container">
-                <div className="moko-tech">
-                    <div className="moko-tech-column">
-                        <div className="moko-title">
-                            Product Technologies
-                            <img className="moko-leaf" src={leaf3}/>
-                        </div>
-                        <div className="moko-tech-img">
-                            <img src={tech}/>
-                        </div>
-                    </div>
-                    <div className="moko-tech-desc">
-                        <div className="moko-tech-front">
-                            Frontend
-                            <div className="moko-tech-label">
-                                Figma UI design
-                            </div>
-                            <div className="moko-tech-label">
-                                React Native
-                            </div>
-                        </div>
-                        <div className="moko-tech-back">
-                            Backend
-                            <div className="moko-tech-label">
-                                Node.js
-                            </div>
-                            <div className="moko-tech-label">
-                                Amazon EC2 server
-                            </div>
-                            <div className="moko-tech-label">
-                                Google Maps API
-                            </div>
-                            <div className="moko-tech-label">
-                                S3 (image storage) 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ProjectTech {...technologies.moko} />
         </div>
     );
  };

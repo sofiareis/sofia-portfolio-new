@@ -1,8 +1,6 @@
 .patientviz-container{
-    font-size: var(--font-size);
     align-items: center;
     justify-content: center;
-    line-height: var(--line-height);
 }
 
 .patientviz-banner-container{
@@ -160,69 +158,6 @@
     //padding-right: 50px;
 }
 
-.patientviz-tech-container{
-    background-color: var(--patientviz-colour);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.patientviz-tech{
-    max-width: var(--max-width);
-    margin: var(--margin);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.patientviz-tech-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
-.patientviz-tech-img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.patientviz-tech-desc{
-    margin-top: 60px;
-    display: flex;
-    flex-direction: row;
-    margin-left: 60px;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
-.patientviz-tech-front{
-    margin-right: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.patientviz-tech-back{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.patientviz-tech-label{
-    width: 253px;
-    height: 45px;
-    background: var(--patientviz-label);
-    border-radius: 30px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-
 //Smaller screens adapt
 
 
@@ -261,18 +196,6 @@
         max-height: 350px;
         max-width: 350px;
     }
-
-    .patientviz-tech-column{
-        margin-right: 0px;
-    }
-
-    .patientviz-tech-desc{
-        margin-left: 0px;
-    }
-
-    .patientviz-tech-front{
-        margin-right: 40px;
-    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -304,10 +227,6 @@
 
     .patientviz-desc-container-desc2{
         margin-left: 20px;
-    }
-
-    .patientviz-tech-front{
-        margin-right: 30px;
     }
 }
 
@@ -408,22 +327,6 @@
         max-height: 400px;
         max-width: 400px;
     }
-    
-    .patientviz-tech{
-        flex-direction: column;
-    }
-
-    .patientviz-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .patientviz-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        justify-content: center;
-    }  
 }
 
 //600
@@ -517,28 +420,5 @@
     .patientviz-desc-desc2-img img{
         max-height: 300px;
         max-width: 300px;
-    }
-    
-    .patientviz-tech{
-        flex-direction: column;
-    }
-
-    .patientviz-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .patientviz-tech-desc{
-        margin-top: 10px;
-        margin-left: 0px;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .patientviz-tech-front{
-        margin-right: 0px;
-        padding-bottom: 30px;
-    }
-    
+    }  
 }

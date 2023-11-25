@@ -4,11 +4,11 @@ import onepiece from '/onepiece.png'
 import renew from '/renew.png'
 import chessie from '/chessie.png'
 import alacrity from '/alacrity.png'
+import careercue from '/careercue.png'
+import patientviz from '/patientviz.png'
+//import boba from '/GIF.gif'
 //import robotdog from '/robotdog.png'
 //import dancingrobot from '/dancingrobot.png'
-import careercue from '/careercue.png'
-//import boba from '/GIF.gif'
-import patientviz from '/patientviz.png'
 
 export const cards = [
     {
@@ -25,6 +25,14 @@ export const cards = [
       page: 'sharity',
   
     },
+
+    {
+      title: 'CareerCue',
+      description: 'A web app that helps you practice for interviews by giving you customized feedback',
+      images: careercue,
+      page: 'careercue',
+  
+    },
  
     {
       title: 'Renew',
@@ -39,14 +47,6 @@ export const cards = [
       description: 'A mobile app that allows users to buy and sell fresh produce within their local communities',
       images: moko,
       page: 'moko',
-  
-    },
-
-    {
-      title: 'CareerCue',
-      description: 'A web app that helps you practice for interviews by giving you customized feedback',
-      images: careercue,
-      page: 'careercue',
   
     },
 
