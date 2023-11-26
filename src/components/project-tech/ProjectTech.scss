@@ -1,62 +1,65 @@
 /*TECH CSS*/
 
 .project-tech-container{
-    //background-color: var(--sharity-colour);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .project-tech{
     max-width: var(--max-width);
     margin: var(--margin);
+    z-index: 1;
+    width: 100%;
+}
+
+.project-tech-wrap1{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .project-tech-column{
     display: flex;
     flex-direction: column;
-    margin-right: 60px;
+    height: 100%;
+}
+
+.project-tech-wrap2{
+    flex-grow: 1;
 }
 
 .project-tech-img{
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
 .project-tech-desc{
-    margin-top: 60px;
     display: flex;
     flex-direction: row;
-    margin-left: 60px;
+    margin-left: 40px;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .project-tech-front{
-    margin-right: 120px;
+    margin-left: 110px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+    //font-family: 'Advent Pro';
 
-.project-tech-back{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    p{
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0px;
+    }
 }
-
 
 .project-tech-label{
-    width: 253px;
+    width: 235px;
     height: 45px;
-    //background: var(--sharity-label);
     border-radius: 30px;
     display: flex;
     text-align: center;
@@ -66,16 +69,12 @@
 }
 
 @media screen and (max-width: 1320px) {
-    .project-tech-column{
-        margin-right: 0px;
-    }
-
     .project-tech-desc{
         margin-left: 0px;
     }
 
     .project-tech-front{
-        margin-right: 40px;
+        margin-left: 40px;
     }
 
 }
@@ -83,18 +82,31 @@
 //1060
 @media screen and (max-width: 1060px) {
     .project-tech-front{
-        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .project-tech-wrap2{
+        margin: 16px 0px 16px 0;
+    }
+
+    .project-tech-label{
+        width: 210px;
+    }
+
+    .project-tech-img img{
+        max-width: 280px;
     }
 }
 
-//960
 @media screen and (max-width: 900px) {
-    .project-tech{
+    .project-tech-wrap1{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .project-tech-column{
-        margin-right: 0px;
+    .project-tech-desc{
+        margin-left: 0px;
         justify-content: center;
         align-items: center;
     }
@@ -103,31 +115,27 @@
         margin-top: 10px;
         margin-left: 0px;
         justify-content: center;
+    }
+
+    .project-tech-wrap2{
+        margin: 0;
+    }
+
+    .project-tech-front{
+        margin: 0px 30px;
     }
 }
 
 //600
 @media screen and (max-width: 600px) {
-    .project-tech{
-        flex-direction: column;
-    }
-
-    .project-tech-column{
-        margin-right: 0px;
-        justify-content: center;
-        align-items: center;
-    }
-
     .project-tech-desc{
         margin-top: 10px;
-        margin-left: 0px;
-        
         justify-content: center;
         flex-direction: column;
     }
 
     .project-tech-front{
-        margin-right: 0px;
+        margin: 0px;
         padding-bottom: 30px;
     }
 

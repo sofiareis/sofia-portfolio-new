@@ -30,5 +30,4 @@ export const projectLinks = {
     patientviz: 'https://github.com/sofiareis/Sharity',
     renew: 'https://github.com/sofiareis/renew',
     sharity: 'https://github.com/sofiareis/Sharity',
-
 }

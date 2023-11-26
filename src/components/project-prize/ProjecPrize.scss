@@ -1,40 +1,48 @@
 
 /*PRIZES CSS*/
-
 .project-prizes-container{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .project-prizes{
     max-width: var(--max-width);
     margin: var(--margin);
+    z-index: 1;
+    width: 100%;
+}
+.project-prizes-wrap1{
     display: flex;
-    align-items: center;
-    justify-content: center;
+}
+
+.project-prizes-wrap2{
+    flex-grow: 1;
 }
 
 .project-prizes-column{
     display: flex;
     flex-direction: column;
-    margin-right: 140px;
+    height: 100%;
+    justify-content: center;
+    margin: 0px;
 }
 
 .project-prize-img{
-    margin-left: 140px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    //margin-right: 140px;
+    //display: flex;
+    //align-items: center;
+    //justify-content: flex-end;
+}
+
+.project-prize-img img{
+    max-width: 300px;
 }
 
 @media screen and (max-width: 1320px) {
-    .project-prizes-column{
-        margin-right: 50px;
-    }
-    
     .project-prize-img{
-        margin-left: 50px;
+        //margin-right: 50px;
     }
 
 }
@@ -52,18 +60,25 @@
 
 //960
 @media screen and (max-width: 900px) {
-    .project-prizes{
+    .project-prizes-wrap1{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .project-prizes-column{
-        margin-right: 0px;
+    .project-prizes-wrap2{
+        margin: 0;
         text-align: center;
     }
     
     .project-prize-img{
         margin-left: 0px;
         justify-content: center;
+    }
+
+    .project-prizes-column{
+        padding: 0;
+        margin: 0;
     }
 
 
@@ -71,20 +86,6 @@
 
 //600
 @media screen and (max-width: 600px) {
-    .project-prizes{
-        flex-direction: column;
-    }
-
-    .project-prizes-column{
-        margin-right: 0px;
-        text-align: center;
-    }
-    
-    .project-prize-img{
-        margin-left: 0px;
-        justify-content: center;
-    }
-
     .project-prize-img img{
         max-width: 250px;
         max-height: 250px;

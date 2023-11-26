@@ -7,6 +7,10 @@ import desc2 from '/alacrity/task.png'
 import inspo from '/alacrity/home.png'
 import ProjectTech from "components/project-tech/ProjectTech"
 import { technologies } from "components/project-tech/technologies"
+import ProjectInspo from "components/project-inspo/ProjectInspo"
+import { inspiration } from "components/project-inspo/inspo"
+import ProjectDesc from "components/project-desc/ProjectDesc"
+import { description } from "components/project-desc/description"
 
 
 const Alacrity = () => {
@@ -19,47 +23,8 @@ const Alacrity = () => {
                     </div>
                 </div>
             </div>
-            <div className="alacrity-inspo-container">
-                <div className="alacrity-inspo">
-                    <div className="alacrity-inspo-column">
-                        <div className="alacrity-title">
-                            The App
-                        </div>
-                        <div className="alacrity-inspo-desc">
-                            Alacrity is a web app meant to help students manage their time. It provides an interface for students to enter their due dates, plan work sessions and rearrange those work sessions to spread the work out more evenly.
-                        </div>
-                    </div>
-                    <div className="alacrity-inspo-img">
-                        <img src={inspo}/>
-                    </div>
-                </div>
-            </div>
-            <div className="alacrity-desc-container">
-                <div className="alacrity-desc">
-                    <div className="alacrity-title">
-                        Product Description
-                    </div>
-                    <div className="alacrity-desc-container-column">
-                        <div className="alacrity-desc-container-desc1">
-                            <div className="alacrity-desc-desc1">
-                                Alacrity contains a calendar view where it displays user’s tasks and users can manually move their workload around the calendar.
-                                <br/>The app automatically optimizes their personal calendar using algorithms to spread work out as evenly as possible
-                            </div>
-                            <div className="alacrity-desc-desc1-img">
-                                <img src={desc1}/>
-                            </div>
-                        </div>
-                        <div className="alacrity-desc-container-desc2">
-                            <div className="alacrity-desc-desc2-img">
-                                <img src={desc2}/>
-                            </div>
-                            <div className="alacrity-desc-desc2">
-                                Users can add tasks to the calendar by filling out the options which will then be presented on their calendar in the most optimized way.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ProjectInspo {...inspiration.alacrity} />
+            <ProjectDesc {...description.alacrity} />
             <ProjectTech {...technologies.alacrity} />
         </div>
     );

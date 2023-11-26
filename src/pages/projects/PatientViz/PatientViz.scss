@@ -1,6 +1,5 @@
 .patientviz-container{
-    align-items: center;
-    justify-content: center;
+    display: block;
 }
 
 .patientviz-banner-container{
@@ -51,111 +50,9 @@
     padding-right: 50px;
 }
 
-.patientviz-inspo-container{
-    background-color:  var(--patientviz-colour);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.patientviz-inspo{
-    max-width: var(--max-width);
-    display: flex;
-    margin: var(--margin);
-    align-items: center;
-    justify-content: center;
-}
-
-.patientviz-inspo-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
 .patientviz-title{
     font-size: var(--title-size);
     margin-bottom: var(--title-margin-bottom);
-}
-
-.patientviz-inspo-img img{
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 450px;
-    padding-left: 50px;
-}
-
-.patientviz-inspo-banner p{
-    margin: 10px;
-}
-
-.patientviz-desc-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.patientviz-desc{
-    margin: var(--margin);
-    max-width: var(--max-width);
-    display: flex;
-    flex-direction: column;
-}
-
-.patientviz-desc-container-column{
-    display: flex;
-    flex-direction: row;
-}
-
-.patientviz-desc-container-desc1{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-right: 20px;
-}
-
-.patientviz-desc-desc1{
-    margin-top: 20px;
-}
-
-.patientviz-desc-desc1-img{
-    //margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.patientviz-desc-desc1-img img{
-    height: auto;
-    max-height: 450px;
-    width: auto;
-    max-width: 450px;
-    //padding-left: 50px;
-}
-
-.patientviz-desc-container-desc2{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-}
-
-.patientviz-desc-desc2-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.patientviz-desc-desc2-img img{
-    height: auto;
-    max-height: 450px;
-    width: auto;
-    max-width: 450px;
-    //padding-right: 50px;
 }
 
 //Smaller screens adapt
@@ -170,63 +67,11 @@
     .patientviz-banner-img img{
         padding-right: 0px;
     }
-
-    .patientviz-inspo-column{
-        margin-right: 10px;
-    }
-
-    .patientviz-inspo-img img{
-        padding-left: 15px;
-    }
-
-    .patientviz-desc-container-desc2{
-       margin-left: 10px;
-    }
-
-    .patientviz-desc-desc1-img img{
-        max-height: 350px;
-        max-width: 350px;
-    }
-
-    .patientviz-title{
-        line-height: normal;
-    }
-
-    .patientviz-desc-desc2-img img{
-        max-height: 350px;
-        max-width: 350px;
-    }
 }
 
 @media screen and (max-width: 1060px) {
     .patientviz-banner-img{
         margin-right: 70px;
-    }
-
-    .patientviz-inspo-column{
-        margin-right: 10px;
-    }
-
-    .patientviz-inspo-img img{
-        max-height: 300px;
-        max-width: 300px;
-        padding-left: 20px;
-    }
-
-    .patientviz-desc-desc1-img img{
-        padding: 10px;
-    }
-
-    .patientviz-desc-desc2-img img{
-        padding: 10px;
-    }
-
-    .patientviz-desc2-desc1{
-        margin-left: 0px;
-    }
-
-    .patientviz-desc-container-desc2{
-        margin-left: 20px;
     }
 }
 
@@ -253,79 +98,6 @@
         max-height: 260px;
         max-width: 260px;
         padding-right: 0px;
-    }
-
-    .patientviz-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .patientviz-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .patientviz-inspo-img{
-        margin: 0px;
-        margin-top: 30px;
-    }
-
-    .patientviz-inspo-img img{
-        padding-left: 0px;
-        max-height: 350px;
-        max-width: 350px;
-    }
-
-    .patientviz-desc-container{
-        flex-direction: column;
-    }
-
-    .patientviz-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .patientviz-desc-container-column{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .patientviz-desc-container-desc1{
-        width: 100%;
-        flex-direction: column;
-        margin: 0px;
-    }
-
-    .patientviz-desc-desc1-img{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .patientviz-desc-desc1-img img{
-        max-height: 400px;
-        max-width: 400px;
-    }
-
-    .patientviz-desc-container-desc2{
-        width: 100%;
-        flex-direction: column-reverse;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-
-    .patientviz-desc-desc2-img{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
-
-    .patientviz-desc-desc2-img img{
-        max-height: 400px;
-        max-width: 400px;
     }
 }
 
@@ -354,71 +126,4 @@
         max-width: 210px;
         padding-right: 0px;
     }
-
-    .patientviz-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .patientviz-inspo-img img{
-        max-height: 250px;
-        max-width: 250px;
-        padding-left: 0px;
-    }
-
-    .patientviz-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .patientviz-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .patientviz-desc-container-column{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .patientviz-desc-container-desc1{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .patientviz-desc-desc1-img{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .patientviz-desc-desc1-img img{
-        max-height: 300px;
-        max-width: 300px;
-    }
-
-    .patientviz-desc-desc1{
-        margin-left: 0px;
-    }
-
-    .patientviz-desc-container-desc2{
-        width: 100%;
-        flex-direction: column-reverse;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-
-    .patientviz-desc-desc2-img{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
-
-    .patientviz-desc-desc2-img img{
-        max-height: 300px;
-        max-width: 300px;
-    }  
 }

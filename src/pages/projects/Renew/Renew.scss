@@ -1,6 +1,5 @@
 .renew-container{
-    align-items: center;
-    justify-content: center;
+    display: block;
 }
 
 .renew-banner-container{
@@ -56,76 +55,9 @@
     padding-right: 50px;
 }
 
-.renew-inspo-container{
-    background-color:  var(--renew-colour);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url('/renew/vector2.png');
-    object-fit: cover;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.renew-inspo{
-    max-width: var(--max-width);
-    display: flex;
-    margin: var(--margin);
-    align-items: center;
-    justify-content: center;
-}
-
-.renew-inspo-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
 .renew-title{
     font-size: var(--title-size);
     margin-bottom: var(--title-margin-bottom);
-}
-
-.renew-desc-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-}
-
-.renew-desc{
-    margin: var(--margin);
-    max-width: var(--max-width);
-    display: flex;
-    flex-direction: column;
-}
-
-.renew-desc-container-feat{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.renew-desc-feat-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.renew-desc-feat-img img{
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 350px;
-    padding-right: 50px;
-}
-
-.renew-desc-feat{
-    margin-left: 40px;
 }
 
 .renew-tech-container{
@@ -162,28 +94,6 @@
 
     .renew-banner-heading2{
         font-size: 40px;
-    }
-
-    .renew-inspo-column{
-        margin-right: 20px;
-    }
-
-    .renew-inspo-banner{
-        margin-left: 0px;
-    }
-
-    .renew-desc-feat-img img{
-        max-height: 300px;
-        max-width: 300px;
-        padding-right: 25px;
-    }
-
-    .renew-desc-feat{
-        margin-left: 10px;
-    }
-
-    .renew-title{
-        line-height: normal;
     }
 }
 
@@ -233,40 +143,6 @@
         max-width: 250px;
         padding-right: 0px;
     }
-
-    .renew-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .renew-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .renew-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .renew-desc-container-feat{
-        flex-direction: column-reverse;
-    }
-
-    .renew-desc-feat-img img{
-        align-items: center;
-        justify-content: center;
-        padding: 10px;
-        margin-top: 20px;
-    }
-
-    .renew-desc-feat{
-        margin-left: 0px;
-    }
 }
 
 //600
@@ -288,32 +164,5 @@
         width: auto;
         max-width: 200px;
         margin-top: 10px;
-    }
-
-    .renew-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .renew-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .renew-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .renew-desc-feat-img img{
-        align-items: center;
-        justify-content: center;
-        padding: 5px;
-        max-height: 250px;
-        max-width: 225px;
     }
 }

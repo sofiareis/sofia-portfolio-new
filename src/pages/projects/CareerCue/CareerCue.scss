@@ -1,6 +1,5 @@
 .careercue-container{
-    align-items: center;
-    justify-content: center;
+    display: block;
 }
 
 .careercue-banner-container{
@@ -13,7 +12,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 30px 20px;
+    padding: 50px 50px;
 }
 
 .careercue-banner-headings{
@@ -26,21 +25,21 @@
 
 .careercue-banner-heading1{
     margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
 }
 
 .careercue-banner-heading2{
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 45px;
+    font-weight: 500;
 }
 
 .careercue-banner-img{
     display: flex;
     align-items: center;
     justify-content: center;
-    //margin-left: 100px;
 }
 
 .careercue-banner img{
@@ -49,105 +48,6 @@
     width: auto;
     max-width: 450px;
     padding-right: 50px;
-}
-
-.careercue-inspo-container{
-    background-color:  var(--careercue-colour);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-inspo{
-    max-width: var(--max-width);
-    display: flex;
-    margin: var(--margin);
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-inspo-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
-.careercue-title{
-    font-size: var(--title-size);
-    margin-bottom: var(--title-margin-bottom);
-    font-weight: var(--title-weight);
-}
-
-.careercue-inspo-img img{
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 450px;
-    padding-left: 50px;
-}
-
-.careercue-desc-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.careercue-desc{
-    margin: var(--margin);
-    max-width: var(--max-width);
-    display: flex;
-    flex-direction: column;
-}
-
-.careercue-desc-container-column{
-    display: flex;
-    flex-direction: row;
-}
-
-.careercue-desc-container-record{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.careercue-desc-record{
-    margin-top: 20px;
-}
-
-.careercue-desc-record-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.careercue-desc-record-img img{
-    height: auto;
-    max-height: 450px;
-    width: auto;
-    max-width: 450px;
-}
-
-.careercue-desc-container-feed{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.careercue-desc-feed-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.careercue-desc-feed-img img{
-    height: auto;
-    max-height: 450px;
-    width: auto;
-    max-width: 450px;
 }
 
 //Smaller screens adapt
@@ -162,49 +62,11 @@
         font-size: 55px;
     }
     .careercue-banner-heading2{
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .careercue-banner-img img{
         padding-right: 0px;
-    }
-
-    .careercue-inspo-column{
-        margin-right: 10px;
-    }
-
-    .careercue-inspo-img img{
-        padding-left: 15px;
-    }
-
-    .careercue-desc-container-record{
-        margin-right: 10px;
-    }
-
-    .careercue-desc-container-feed{
-        margin-left: 10px;
-    }
-
-    .careercue-desc-record-img img{
-        max-height: 400px;
-        max-width: 400px;
-    }
-
-    .careercue-desc-record{
-        margin-left: 0px;
-    }
-
-    .careercue-desc-feed{
-        margin-right: 0px;
-    }
-
-    .careercue-title{
-        line-height: normal;
-    }
-
-    .careercue-desc-feed-img img{
-        max-height: 400px;
-        max-width: 400px;
     }
 }
 
@@ -215,50 +77,19 @@
     }
 
     .careercue-banner-heading1{
-        font-size: 45px;
+        font-size: 40px;
     }
     .careercue-banner-heading2{
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .careercue-banner-img img{
         padding-right: 0px;
     }
 
-    .careercue-inspo-column{
-        margin-right: 10px;
-    }
-
-    .careercue-inspo-img img{
-        width: auto;
-        height: auto;
+    .careercue-banner img{
         max-height: 300px;
         max-width: 300px;
-        padding-left: 20px;
-    }
-
-    .careercue-desc-record-img img{
-        max-height: 300px;
-        max-width: 350px;
-        padding: 10px;
-    }
-
-    .careercue-desc-record{
-        margin-right: 0px;
-    }
-
-    .careercue-desc-feed-img img{
-        max-height: 300px;
-        max-width: 350px;
-        padding: 10px;
-    }
-
-    .careercue-feed-record{
-        margin-left: 0px;
-    }
-
-    .careercue-desc-container-feed{
-        margin-left: 20px;
     }
 }
 
@@ -278,94 +109,13 @@
     }
 
     .careercue-banner-heading1{
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .careercue-banner img{
-        max-height: 260px;
-        max-width: 260px;
+        max-height: 280px;
+        max-width: 280px;
         padding-right: 0px;
-    }
-
-    .careercue-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .careercue-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .careercue-inspo-img{
-        margin: 0px;
-        margin-top: 30px;
-    }
-
-    .careercue-inspo-img img{
-        padding-left: 0px;
-        max-height: 400px;
-        max-width: 450px;
-    }
-
-    .careercue-desc-container{
-        flex-direction: column;
-    }
-
-    .careercue-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .careercue-desc-container-column{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .careercue-desc-container-record{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .careercue-desc-record-img{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .careercue-desc-record-img img{
-        max-height: 400px;
-        max-width: 400px;
-    }
-
-
-    .careercue-desc-record{
-        margin-left: 0px;
-    }
-
-    .careercue-desc-container-feed{
-        width: 100%;
-        flex-direction: column-reverse;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-
-    .careercue-desc-feed-img{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
-
-    .careercue-desc-feed-img img{
-        max-height: 400px;
-        max-width: 400px;
-    }
-
-    .careercue-desc-container-feed{
-        margin-left: 10px;
     }
 }
 
@@ -382,84 +132,15 @@
     }
 
     .careercue-banner-heading1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .careercue-banner-heading2{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .careercue-banner img{
         max-height: 210px;
         max-width: 210px;
-        padding-right: 0px;
-    }
-
-    .careercue-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .careercue-inspo-img img{
-        max-height: 300px;
-        max-width: 300px;
-        padding-left: 0px;
-        margin-top: 10px;
-    }
-
-    .careercue-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .careercue-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .careercue-desc-container-column{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .careercue-desc-container-record{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .careercue-desc-record-img{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .careercue-desc-record-img img{
-        max-height: 300px;
-        max-width: 300px;
-    }
-
-    .careercue-desc-record{
-        margin-left: 0px;
-    }
-
-    .careercue-desc-container-feed{
-        width: 100%;
-        flex-direction: column-reverse;
-        margin-bottom: 0px;
-        margin-left: 0px;
-    }
-
-    .careercue-desc-feed-img{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
-
-    .careercue-desc-feed-img img{
-        max-height: 300px;
-        max-width: 300px;
     }
 }

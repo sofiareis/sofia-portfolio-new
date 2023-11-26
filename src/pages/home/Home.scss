@@ -72,6 +72,7 @@
 .home-about-subtitle{
     font-size: 25px;
     font-weight: 450;
+    font-family: "Advent Pro";
 }
 
 .home-timeline{
@@ -82,14 +83,14 @@
     margin-bottom: 30px;
 }
 
-.home-about ul.home-timeline{
+ul.home-timeline{
     list-style-type: none;
     position: relative;
     padding-left: 35px;
     margin-bottom: 60px;
 }
 
-.home-about ul.home-timeline::before{
+ul.home-timeline::before{
     content: " ";
     background: black;
     display: inline-block;
@@ -101,7 +102,7 @@
     z-index: 400;
 }
 
-.home-about li.home-timeline-item::before{
+li.home-timeline-item::before{
     content: " ";
     background: #AC626F;
     display: inline-block;
@@ -295,14 +296,13 @@
     
     .home-about-subtitle{
         font-size: 24px;
-        font-family: "Advent Pro";
     }
 
-    .home-about ul.home-timeline::before{
+    ul.home-timeline::before{
         top: 7px;
     }
     
-    .home-about li.home-timeline-item::before{
+    li.home-timeline-item::before{
         width: 18px;
         height: 18px;
         left: -11px;
@@ -310,7 +310,7 @@
         z-index: 400;
     }
 
-    .home-about ul.home-timeline{
+    ul.home-timeline{
         padding-left: 20px;
     }
 

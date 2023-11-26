@@ -1,0 +1,230 @@
+.project-inspo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.project-inspo{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    z-index: 1;
+    width: 100%;
+}
+
+.project-inspo-wrap1{
+    display: flex;
+}
+
+.project-inspo-wrap2{
+    flex-grow: 1;
+}
+
+
+.project-inspo-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.project-inspo-img img{
+    height: auto;
+    max-height: 350px;
+    width: auto;
+    max-width: 450px;
+    margin-left: 50px;
+}
+
+.project-inspo-img-box img{
+    height: auto;
+    max-height: 350px;
+    width: auto;
+    max-width: 450px;
+    margin-left: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.project-code{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.project-link{
+    color:black;
+    height: 40px;
+    width: 40px;
+    padding-left: 15px;
+    transition: color 0.3s; 
+    
+    &:hover {
+        color: white;
+    }
+}
+
+/* Renew */
+.renew-inspo-container{
+    background-color:  var(--renew-colour);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/renew/vector2.png');
+    object-fit: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.renew-inspo{
+    max-width: var(--max-width);
+    display: flex;
+    margin: var(--margin);
+    align-items: center;
+    justify-content: center;
+}
+
+.renew-inspo-column{
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+
+
+//1320
+@media screen and (max-width: 1320px) {
+    .project-inspo-column{
+        margin-right: 10px;
+    }
+
+    .project-inspo-img img{
+       margin-left: 15px;
+    }
+
+    .project-inspo-img-box img{
+        margin-left: 15px;
+    }
+
+    .chessmate-inspo-img img{
+        max-height: 300px;
+    }
+
+    .renew-inspo-column{
+        margin-right: 20px;
+    }
+
+    .renew-inspo-banner{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1060px) {
+    .project-inspo-column{
+        margin-right: 10px;
+    }
+
+    .project-inspo-img img{
+        width: auto;
+        height: auto;
+        max-height: 300px;
+        max-width: 300px;
+        margin-left: 20px;
+    }
+
+    .project-inspo-img-box img{
+        width: auto;
+        height: auto;
+        max-height: 300px;
+        max-width: 300px;
+        margin-left: 20px;
+    }
+}
+
+//900
+@media screen and (max-width: 900px) {
+    .project-inspo-wrap1{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .project-inspo-column{
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-inspo-img{
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .project-inspo-img-box{
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .project-inspo-img img{
+        margin-left: 0px;
+        max-height: 300px;
+        max-width: 450px;
+    }
+
+    .project-inspo-img-box img{
+        margin-left: 0px;
+        max-height: 300px;
+        max-width: 450px;
+    }
+
+    .chessmate-inspo-img img{
+        width: auto;
+        height: auto;
+        max-height: 200px;
+        max-width: 200px;
+    }
+
+    .renew-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .renew-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+//600
+@media screen and (max-width: 600px) {
+    .project-inspo-img img{
+        max-height: 250px;
+        max-width: 300px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .project-inspo-img-box img{
+        max-height: 250px;
+        max-width: 300px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+    .renew-inspo{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .renew-inspo-column{
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .project-code{
+        font-size: 1rem;
+    }
+}

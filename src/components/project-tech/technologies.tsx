@@ -65,5 +65,14 @@ export const technologies = {
             textcolor: 'black',
             renew: true,
         },
+    onepiece: {
+        front: ['Figma UI design', 'React'],
+        back: ['Node.js', 'MongoDB', 'Express.js'],
+        img: '/onepiece/tech.svg',
+        label: '#2C2B5B',
+        textlabel: 'white',
+        backgroundcolor: '#AFA384',
+        textcolor: 'black',
+    }
 
 }

@@ -1,0 +1,117 @@
+.onepiece-container{
+    display: block;
+}
+
+.onepiece-banner-container{
+    background-color: #605F82;
+}
+
+.onepiece-banner{
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.onepiece-banner-headings{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FAD470;
+    margin-top: 40px;
+}
+
+.onepiece-banner-heading1{
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.onepiece-banner-heading2{
+    margin-top: 10px;
+    font-size: 45px;
+}
+
+.onepiece-banner-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.onepiece-banner img{
+    height: auto;
+    max-height: 450px;
+    width: auto;
+    max-width: 450px;
+}
+
+.onepiece-title{
+    font-size: var(--title-size);
+    margin-bottom: var(--title-margin-bottom);
+}
+
+//Smaller screens adapt
+
+
+//1320
+@media screen and (max-width: 1320px) {
+}
+
+@media screen and (max-width: 1060px) {
+    .onepiece-banner-heading1{
+        font-size: 60px;
+    }
+    
+    .onepiece-banner-heading2{
+        margin-top: 10px;
+        font-size: 40px;
+    }
+
+    .onepiece-banner img{
+        max-width: 380px;
+    }
+}
+
+//900
+@media screen and (max-width: 900px) {
+    .onepiece-banner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .onepiece-banner-headings{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .onepiece-banner-img{
+        margin-right: 0px;
+    }
+
+    .onepiece-banner img{
+        max-height: 260px;
+        max-width: 260px;
+    }
+}
+
+//600
+@media screen and (max-width: 600px) {
+    .onepiece-banner-heading1{
+        font-size: 40px;
+    }
+
+    .onepiece-banner-heading2{
+        font-size: 30px;
+    }
+
+    .onepiece-banner img{
+        max-height: 210px;
+        max-width: 210px;
+    }
+}

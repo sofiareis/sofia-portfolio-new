@@ -1,6 +1,5 @@
 .chessmate-container{
-    align-items: center;
-    justify-content: center;
+    display: block;
 }
 
 .chessmate-banner-container{
@@ -13,7 +12,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 90px 20px;
+    padding: 50px 50px;
 }
 
 .chessmate-banner-img{
@@ -29,352 +28,30 @@
     max-width: 550px;
 }
 
-.chessmate-inspo-container{
-    background-color:  var(--chessmate-colour1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.chessmate-inspo{
-    max-width: var(--max-width);
-    display: flex;
-    margin: var(--margin);
-    align-items: center;
-    justify-content: center;
-}
-
-.chessmate-inspo-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
-.chessmate-title{
-    font-size: var(--title-size);
-    margin-bottom: var(--title-margin-bottom);
-}
-
-.chessmate-inspo-img{
-    margin-left: 10px;
-}
-
-.chessmate-inspo-banner p{
-    margin: 10px;
-}
-
-.chessmate-desc-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.chessmate-desc{
-    margin: var(--margin);
-    max-width: var(--max-width);
-    display: flex;
-    flex-direction: column;
-}
-
-.chessmate-desc-container-column{
-    display: flex;
-    flex-direction: row;
-}
-
-.chessmate-desc-container-buy{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
-
-.chessmate-desc-buy{
-    margin-top: 20px;
-    margin-right: 20px;
-}
-
-.chessmate-desc-buy-img{
-    //margin-right: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-}
-
-.chessmate-desc-buy-img img{
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 350px;
-    padding-left: 50px;
-}
-
-.chessmate-desc-container-sell{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 40px;
-}
-
-.chessmate-desc-sell-img{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 40px;
-}
-
-.chessmate-desc-sell-img img{
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 350px;
-    padding-right: 50px;
-}
-
-.chessmate-desc-sell{
-   // margin-left: 40px;
-}
 
 //Smaller screens adapt
 
 //1320
 @media screen and (max-width: 1320px) {
-    .chessmate-inspo-column{
-        margin-right: 20px;
-    }
-
-    .chessmate-inspo-img img{
-        max-width: 200px;
-        max-height: 300px;
-    }
-
-    .chessmate-desc-buy-img img{
-        max-height: 300px;
-        max-width: 300px;
-        padding: 15px;
-    }
-
-    .chessmate-desc-buy{
-        margin-right: 0px;
-    }
-
-    .chessmate-tech-column{
-        margin-right: 0px;
-    }
-
-    .chessmate-desc-sell{
-        margin-left: 0px;
-    }
-
-    .chessmate-title{
-        line-height: normal;
-    }
-
-    .chessmate-desc-sell-img img{
-        max-height: 300px;
-        max-width: 300px;
-        padding: 15px;
-    }
 }
 
 @media screen and (max-width: 1060px) {
-    .chessmate-inspo-column{
-        margin-right: 10px;
-    }
 
-    .chessmate-inspo-img img{
-        width: auto;
-        height: auto;
-        max-height: 300px;
-        max-width: 300px;
-    }
-
-    .chessmate-desc-buy-img img{
-        max-height: 300px;
-        max-width: 300px;
-        padding: 10px;
-    }
-
-    .chessmate-desc-buy{
-        margin-right: 0px;
-    }
-
-    .chessmate-desc-sell-img img{
-        max-height: 300px;
-        max-width: 300px;
-        padding: 10px;
-    }
-
-    .chessmate-sell-buy{
-        margin-left: 0px;
-    }
-
-    .chessmate-desc-container-sell{
-        margin-left: 20px;
-    }
 }
 
 //900
 @media screen and (max-width: 900px) {
     .chessmate-banner img{
         max-height: 400px;
-        max-width: 400px;
-    }
-
-    .chessmate-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .chessmate-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .chessmate-inspo-img{
-        margin: 0px;
-    }
-
-    .chessmate-inspo-img img{
-        width: auto;
-        height: auto;
-        max-height: 250px;
-        max-width: 250px;
-    }
-
-    .chessmate-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .chessmate-desc-desc-buy{
-        flex-direction: column-reverse;
-    }
-
-    .chessmate-desc-buy-img img{
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .chessmate-desc-buy-img img{
-        max-height: 210px;
-        max-width: 210px;
-    }
-
-    .chessmate-desc-sell-img img{
-        max-height: 210px;
-        max-width: 210px;
-    }
-
-    .chessmate-desc-desc-sell{
-        flex-direction: column;
-    }
-
-    .chessmate-desc-sell-img img{
-        align-items: center;
-        justify-content: center;
-        padding: 8px;
-    }
-
-    .chessmate-desc-sell{
-        margin-right: 0px;
-    }
-
-    .chessmate-desc-container-sell{
-        margin-left: 10px;
+        max-width: 380px;
     }
 }
 
 //600
 @media screen and (max-width: 600px) {
-
-    .chessmate-banner-headings{
-        text-align: center;
-    }
-
-    .chessmate-banner-heading1{
-        font-size: 35px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
     .chessmate-banner img{
         max-height: 210px;
         max-width: 210px;
-    }
-
-    .chessmate-banner-heading2{
-        font-size: 28px;
-    }
-
-    .chessmate-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .chessmate-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .chessmate-desc{
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .chessmate-desc-container-column{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .chessmate-desc-container-buy{
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .chessmate-desc-buy-img{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .chessmate-desc-buy-img img{
-        padding: 5px;
-        max-height: 200px;
-        max-width: 200px;
-    }
-
-    .chessmate-desc-buy{
-        margin-left: 0px;
-    }
-
-    .chessmate-desc-container-sell{
-        width: 100%;
-        flex-direction: column-reverse;
-        margin-bottom: 0px;
-        margin: 0px;
-    }
-
-    .chessmate-desc-sell-img{
-        margin-top: 20px;
-        margin-bottom: 0px;
-    }
-
-    .chessmate-desc-sell-img img{
-        padding: 5px;
-        max-height: 200px;
-        max-width: 200px;
     }
 }

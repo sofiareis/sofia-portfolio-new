@@ -1,6 +1,7 @@
 body {
-    --margin: 80px 100px;
-    --max-width: 1300px;
+    --margin: 80px 60px;
+    --max-width: 1200px;
+    --font-size: 1.1rem;
     --title-size: 2.25rem;
     --title-weight: 600;
     --title-margin-bottom: 20px;
@@ -21,6 +22,7 @@ body {
     --alacrity-colour2: linear-gradient(360deg, white, #F5C0E2);
     --alacrity-colour3:  #1EAFF8;
     --alacrity-label: #F4B5DC;
+    --onepiece-label: #2C2B5B;
 }
 
 /*
@@ -37,7 +39,7 @@ body {
     font-size: var(--title-size);
     margin-bottom: var(--title-margin-bottom);
     font-weight: var(--title-weight);
-    text-align: center;
+    //text-align: center;
 }
 
 .project-desc-container{
@@ -49,7 +51,7 @@ body {
 //1060
 @media screen and (max-width: 1060px) {
     body{
-        --margin: 80px 70px;
+        --margin: 80px 60px;
         --title-size: 35px;
     }
 }
@@ -61,14 +63,18 @@ body {
     --font-size: 16px;
     --title-size: 30px;
     }
+
+    .project-desc-title{
+        text-align: center;
+    }
 }
 
 //600
 @media screen and (max-width: 600px) {
     body{
     --margin: 60px 30px;
-    --font-size: 16px;
-    --title-size: 30px;
+    --font-size: 15px;
+    --title-size: 25px;
     }
 }
 
