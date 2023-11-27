@@ -39,7 +39,7 @@ const ProjectInspo = (project: {inspo: string, img: string, backgroundcolor: str
             <div className="project-inspo-container" style={{backgroundColor: project.backgroundcolor, color: project.textcolor}}>
                 <div className="project-inspo">
                     <div className="project-desc-title">
-                        The Inspiration
+                        {project.chess? "The App" : "The Inspiration"}
                     </div>
                     <div className="project-inspo-wrap1">
                         <div className="project-inspo-wrap2">

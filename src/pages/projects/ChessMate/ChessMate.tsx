@@ -1,4 +1,4 @@
-import "pages/projects/Chessmate/Chessmate.scss"
+import "pages/projects/ChessMate/ChessMate.scss"
 import 'pages/projects/variables.scss'
 
 import logo from '/chessmate/Logo.png'

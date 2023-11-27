@@ -22,7 +22,7 @@ export const inspiration = {
         link:  'https://github.com/sofiareis/ChessMate',
     },
     moko: {
-        inspo: "Inspired by local farmers markets, moko is an app that aims to promote sustainable development by minimizing CO2 emissions from food transportation and encouraging eating local and fresh produce. Moko also strives to encourage discovery and support for local businesses and foster community bonding. Through Moko, users can buy and sell fresh produce within their local communities.",
+        inspo: "Inspired by local farmers markets, moko is an app that aims to promote sustainable development by minimizing CO2 emissions from food transportation and encouraging eating local and fresh produce. Moko also strives to encourage discovery and support for local businesses and foster community bonding.",
         img: '/moko/ecology.svg',
         backgroundcolor: '#87B676',
         textcolor: 'black',
@@ -37,7 +37,7 @@ export const inspiration = {
         box: true,
     },
     renew: {
-        inspo: " In light of the war in Ukraine today, millions of Ukranians have fled into neighboring countries into a frightening and uncertain future. Our team wanted to create something to help refugees in similar situations as they navigate life in a new, unfamiliar country",
+        inspo: " In light of the war in Ukraine today, millions of Ukranians have fled into neighboring countries into a frightening and uncertain future. Renew is meant to help refugees in similar situations as they navigate life in a new, unfamiliar country.",
         img: '/careercue/inspo.png',
         backgroundcolor: '#839788',
         textcolor: 'black',

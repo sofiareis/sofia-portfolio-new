@@ -28,7 +28,7 @@ export const description = {
     },
     careercue: {
         desc1: 'CareerCue provides a database of commonly asked behavioural interview questions across various industries. You can practice your responses by recording yourself and getting instant feedback to improve your answers.',
-        desc2: 'Our app provides customized feedback so you can see your strengths and weaknesses based on tone, clarity, word choice, and timing. You can switch questions, restart the recording, try the same question again, and send a summary of your answers and feedback to your email for later review.',
+        desc2: 'The app provides customized feedback so users can see their strengths and weaknesses based on tone, clarity, word choice, and timing. Users can switch questions, restart the recording, try the same question again, and send a summary of their answers and feedback to their email for later review.',
         img1: '/careercue/desc1.png',
         img2: '/careercue/desc2.png',
         type: '2',
@@ -49,7 +49,7 @@ export const description = {
         background: '#F5C0E2',
     },
     renew: {
-        desc1: 'Our project, renew, is an app designed to provide support and resources for immigrants in a new country. The app name was chosen to represent the fact that we want to help refugees as they start a new life in a new country, hence renew.\nThe app features a community function where users are grouped into communities based on where they came from and where they have immigrated to. Within these communities, users can post and comment about any questions or resources for users to learn from each other. Additionally, there is a map feature which filters for nearby food banks, hospitals, and areas with recent criminal activity.',
+        desc1: 'Renew is an app designed to provide support and resources for immigrants in a new country. The app name was chosen to represent the fact that it helps refugees as they start a new life in a new country, hence renew.\nThe app features a community function where users are grouped into communities based on where they came from and where they have immigrated to. Within these communities, users can post and comment about any questions or resources for users to learn from each other. Additionally, there is a map feature which filters for nearby food banks, hospitals, and areas with recent criminal activity.',
         desc2: '',
         img1:  '/renew/desc2.png',
         img2: '/renew/desc3.png',
