@@ -2,10 +2,6 @@ import "pages/projects/Chessmate/Chessmate.scss"
 import 'pages/projects/variables.scss'
 
 import logo from '/chessmate/Logo.png'
-import desc1 from '/chessmate/Achievements.png'
-import desc4 from '/chessmate/Home.png'
-import desc3 from '/chessmate/Landing.png'
-import desc2 from '/chessmate/Matches.png'
 import ProjectTech from "components/project-tech/ProjectTech"
 import { technologies } from "components/project-tech/technologies"
 import ProjectInspo from "components/project-inspo/ProjectInspo"

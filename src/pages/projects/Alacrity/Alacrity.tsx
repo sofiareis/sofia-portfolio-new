@@ -2,9 +2,6 @@ import "pages/projects/Alacrity/Alacrity.scss"
 import 'pages/projects/variables.scss'
 
 import logo from '/alacrity/Logo.png'
-import desc1 from '/alacrity/calendar.png'
-import desc2 from '/alacrity/task.png'
-import inspo from '/alacrity/home.png'
 import ProjectTech from "components/project-tech/ProjectTech"
 import { technologies } from "components/project-tech/technologies"
 import ProjectInspo from "components/project-inspo/ProjectInspo"

@@ -1,10 +1,6 @@
 import "pages/projects/Sharity/Sharity.scss"
 import 'pages/projects/variables.scss'
 import logo from '/sharity/Logo.png'
-import user1 from '/sharity/user1.png'
-import user2 from '/sharity/user2.png'
-import charity1 from '/sharity/charity1.png'
-import charity2 from '/sharity/charity2.png'
 import ProjectTech from "components/project-tech/ProjectTech"
 import { prizes } from "components/project-prize/prizes"
 import { technologies } from "components/project-tech/technologies"

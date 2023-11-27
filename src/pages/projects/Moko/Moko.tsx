@@ -2,15 +2,6 @@ import "pages/projects/Moko/Moko.scss"
 import 'pages/projects/variables.scss'
 
 import logo from '/moko/Logo.png'
-import desc1 from '/moko/desc1.png'
-import desc2 from '/moko/desc2.png'
-import desc3 from '/moko/desc3.png'
-import desc4 from '/moko/desc4.png'
-import leaf1 from '/moko/leaf1.png'
-import leaf2 from '/moko/leaf2.png'
-import leaf3 from '/moko/leaf3.png'
-import tech from '/moko/tech.svg'
-import eco from '/moko/ecology.svg'
 import ProjectTech from "components/project-tech/ProjectTech"
 import { technologies } from "components/project-tech/technologies"
 import ProjectInspo from "components/project-inspo/ProjectInspo"

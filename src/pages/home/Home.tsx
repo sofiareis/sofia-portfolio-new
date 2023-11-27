@@ -2,7 +2,6 @@ import "pages/home/Home.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from 'components/Links';
 import sofia from '/sofia2.png'
-import { skills } from "./Skills";
 
 const Home = () => {
     return (
