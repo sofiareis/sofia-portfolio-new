@@ -1,4 +1,5 @@
 import 'pages/projects/Projects.scss'
+import 'pages/projects/variables.scss'
 import {cards} from 'components/project-details/ProjectDetailsInfo'
 import { Card, CardContent, CardMedia, Container, Grid } from "@mui/material";
 import { Link } from "react-router-dom";
