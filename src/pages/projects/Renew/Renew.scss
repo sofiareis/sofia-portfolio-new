@@ -19,24 +19,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 20px;
+    padding: 30px 40px;
 }
 
 .renew-banner-headings{
     display: flex;
     flex-direction: column;
     font-size: 60px;
-    margin-left: 50px;
+    margin-left: 30px;
+    font-weight: 500;
 }
 
 .renew-banner-heading1{
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 10px;
     color: #4A6FA5;
 }
 
 .renew-banner-heading2{
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 40px;
     font-size: 50px;
 }
@@ -47,12 +48,11 @@
     justify-content: center;
 }
 
-.renew-banner img{
+.renew-banner-img img{
     height: auto;
     max-height: 300px;
     width: auto;
     max-width: 300px;
-    padding-right: 50px;
 }
 
 .renew-title{
@@ -89,22 +89,29 @@
 //1320
 @media screen and (max-width: 1320px) {
     .renew-banner-headings{
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .renew-banner-heading2{
-        font-size: 40px;
+        font-size: 35px;
     }
 }
 
 @media screen and (max-width: 1060px) {
     .renew-banner-headings{
-        font-size: 35px;
+        font-size: 36px;
         margin-left: 25px;
     }
 
     .renew-banner-heading2{
         font-size: 25px;
+    }
+
+    .renew-banner-img img{
+        height: auto;
+        max-height: 250px;
+        width: auto;
+        max-width: 250px;
     }
 }
 
@@ -122,11 +129,11 @@
     }
 
     .renew-banner-heading1{
-        margin-top: 40px;
+        margin-top: 30px;
     }
 
     .renew-banner-heading2{
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .renew-banner-img{
@@ -136,12 +143,11 @@
         margin-left: 0px;
     }
 
-    .renew-banner img{
+    .renew-banner-img img{
         height: auto;
-        max-height: 250px;
+        max-height: 220px;
         width: auto;
         max-width: 250px;
-        padding-right: 0px;
     }
 }
 
@@ -149,20 +155,19 @@
 @media screen and (max-width: 600px) {
 
     .renew-banner-headings{
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
 
     .renew-banner-heading2{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 10px;
     }
 
-    .renew-banner img{
+    .renew-banner-img img{
         height: auto;
         max-height: 200px;
         width: auto;
         max-width: 200px;
-        margin-top: 10px;
     }
 }

@@ -3,7 +3,7 @@
     background-size: cover;
     display: flex;
     flex-direction: row;
-    padding: 50px 50px;
+    padding: 50px 70px;
     justify-self: center;
 }
 
@@ -50,18 +50,14 @@
     align-self: center;
 }
 
-.home-about{
-    max-width: 1300px; 
-    margin: auto; 
-    padding: 30px 90px;
+.home-img {
+    max-width: 550px;
 }
 
-.home-about-title{
-    font-weight: 600;
-    font-size: var(--title-size);
-    text-align: center;
-    padding: 40px 0px;
-    margin: 0px;
+.home-about{
+    max-width: var(--max-width);
+    margin: auto; 
+    padding: 30px 90px;
 }
 
 .home-about-text{
@@ -174,10 +170,6 @@ li.home-timeline-item::before{
 
 
 @media screen and (max-width: 900px) {
-    .home-container{
-        font-size: 18px;
-    }
-
     .home-intro-title{
         font-size: 1.8rem;
     }
@@ -200,20 +192,12 @@ li.home-timeline-item::before{
         width: 35px;
     }
 
-    .home-about-title{
-        padding: 20px 0px;
-    }
-
     .home-about-text{
         text-align: center;
      }
 }
 
 @media screen and (max-width: 600px) {
-    .home-container{
-        font-size: 15px;
-    }
-
     .home-banner{
         display: flex;
         flex-direction: column;
@@ -244,11 +228,6 @@ li.home-timeline-item::before{
         padding: 30px 50px;
     }
 
-    .home-about-title{
-        font-size: 30px;
-        padding: 20px 0px;
-    }
-
     .home-about-text{
        text-align: center;
     }
@@ -260,9 +239,7 @@ li.home-timeline-item::before{
 }
 
 @media screen and (max-width: 450px) {
-    .home-container{
-        font-size: 0.9rem;
-    }
+    
 
     .home-banner{
         padding: 40px 20px;
@@ -282,11 +259,6 @@ li.home-timeline-item::before{
         max-width: 1400px; 
         margin: auto; 
         padding: 30px 30px;
-    }
-
-    .home-about-title{
-        font-size: 20px;
-        padding: 10px 0px;
     }
 
     .home-about-text{

@@ -31,11 +31,10 @@ export const inspiration = {
     },
     patientviz: {
         inspo: "Triage is a crucial tool in managing long waitlists as the triage process enables more equitable care and allows patients with the greatest and most urgent needs to be seen first (Moskop & Iserson, 2004). However, the triage process can be complicated, as referrals received by specialist physicians often differ in detail and length. The goal of PatientViz is to help physicians with the triage process and minimize long waiting lists.",
-        img: '/patientviz/patient.png',
+        img: '/patientviz/health2.png',
         backgroundcolor: '#A96385',
         textcolor: 'black',
         box: true,
-        link: 'https://github.com/sofiareis/Sharity',
     },
     renew: {
         inspo: " In light of the war in Ukraine today, millions of Ukranians have fled into neighboring countries into a frightening and uncertain future. Our team wanted to create something to help refugees in similar situations as they navigate life in a new, unfamiliar country",

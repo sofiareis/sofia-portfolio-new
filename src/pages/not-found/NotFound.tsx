@@ -1,5 +1,5 @@
 const PageNotFound = () => {
-    return <div>This path is not exist!</div>;
+    return <div>This page does not exist :(</div>;
  };
  
  export default PageNotFound;

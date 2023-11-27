@@ -27,6 +27,7 @@
     margin-right: 50px;
 }
 
+.project-inspo-img-box img,
 .project-inspo-img img{
     height: auto;
     max-height: 350px;
@@ -36,11 +37,6 @@
 }
 
 .project-inspo-img-box img{
-    height: auto;
-    max-height: 350px;
-    width: auto;
-    max-width: 450px;
-    margin-left: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
@@ -96,12 +92,9 @@
         margin-right: 10px;
     }
 
+    .project-inspo-img-box img,
     .project-inspo-img img{
        margin-left: 15px;
-    }
-
-    .project-inspo-img-box img{
-        margin-left: 15px;
     }
 
     .chessmate-inspo-img img{
@@ -122,15 +115,8 @@
         margin-right: 10px;
     }
 
+    .project-inspo-img-box img,
     .project-inspo-img img{
-        width: auto;
-        height: auto;
-        max-height: 300px;
-        max-width: 300px;
-        margin-left: 20px;
-    }
-
-    .project-inspo-img-box img{
         width: auto;
         height: auto;
         max-height: 300px;
@@ -152,26 +138,17 @@
         justify-content: center;
     }
 
+    .project-inspo-img-box,
     .project-inspo-img{
         margin: 0px;
         margin-top: 30px;
     }
 
-    .project-inspo-img-box{
-        margin: 0px;
-        margin-top: 30px;
-    }
-
+    .project-inspo-img-box img,
     .project-inspo-img img{
         margin-left: 0px;
-        max-height: 300px;
-        max-width: 450px;
-    }
-
-    .project-inspo-img-box img{
-        margin-left: 0px;
-        max-height: 300px;
-        max-width: 450px;
+        max-height: 350px;
+        max-width: 400px;
     }
 
     .chessmate-inspo-img img{
@@ -197,14 +174,8 @@
 
 //600
 @media screen and (max-width: 600px) {
+    .project-inspo-img-box img,
     .project-inspo-img img{
-        max-height: 250px;
-        max-width: 300px;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-
-    .project-inspo-img-box img{
         max-height: 250px;
         max-width: 300px;
         margin-left: 0px;

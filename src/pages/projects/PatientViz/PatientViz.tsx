@@ -1,7 +1,7 @@
 import "pages/projects/Patientviz/Patientviz.scss"
 import 'pages/projects/variables.scss'
 
-import doctor from '/patientviz/doctor.png'
+import doctor from '/patientviz/doctor1.png'
 import ProjectTech from "components/project-tech/ProjectTech"
 import { technologies } from "components/project-tech/technologies"
 import ProjectInspo from "components/project-inspo/ProjectInspo"

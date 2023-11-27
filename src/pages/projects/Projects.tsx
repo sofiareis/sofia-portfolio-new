@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Projects = () => {
     return (    
         <div className='project-container'>
-          <p className="project-title">MY PROJECTS</p>
+          <p className="project-main-title">MY PROJECTS</p>
           <p className="project-subtitle">A compilation of my personal, hackathon, and school projects</p>
           <Container className="project-list">
             <Grid container spacing={4}>

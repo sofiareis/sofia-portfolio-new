@@ -3,14 +3,6 @@
     line-height: 1.5;
 }
 
-.project-title{
-    text-align: center;
-    font-weight: 600;
-    font-size: var(--title-size);
-    margin-top: 2.5rem;
-    margin-bottom: 1.25rem;
-}
-
 .project-subtitle{
     font-size: 1.125rem; 
     text-align: center;
@@ -113,10 +105,6 @@
 }
 
 @media screen and (max-width: 600px){
-    .project-title{
-        font-size: 30px;
-    }
-
     .project-container{
         padding: 30px 40px;
     }
@@ -134,10 +122,6 @@
 }
 
 @media screen and (max-width: 450px){
-    .project-title{
-        font-size: 25px;
-    }
-
     .project-subtitle{
         font-size: 16px;
     }

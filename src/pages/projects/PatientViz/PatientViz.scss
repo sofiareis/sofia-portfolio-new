@@ -25,7 +25,7 @@
 .patientviz-banner-heading1{
     color: white ;
     margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 65px;
     font-weight: bold;
 }
 
@@ -39,15 +39,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 100px;
+    margin-right: 20px;
 }
 
-.patientviz-banner img{
+.patientviz-banner-img img{
     height: auto;
-    max-height: 450px;
+    max-height: 400px;
     width: auto;
-    max-width: 450px;
-    padding-right: 50px;
+    max-width: 400px;
 }
 
 .patientviz-title{
@@ -60,19 +59,9 @@
 
 //1320
 @media screen and (max-width: 1320px) {
-    .patientviz-banner-headings{
-        margin-left: 25px;
-    }
-
-    .patientviz-banner-img img{
-        padding-right: 0px;
-    }
 }
 
 @media screen and (max-width: 1060px) {
-    .patientviz-banner-img{
-        margin-right: 70px;
-    }
 }
 
 //900
@@ -88,6 +77,15 @@
         justify-content: center;
         text-align: center;
         margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .patientviz-banner-heading1{
+        font-size: 60px;
+    }
+
+    .patientviz-banner-heading2{
+        font-size: 45px;
     }
 
     .patientviz-banner-img{
@@ -103,22 +101,13 @@
 
 //600
 @media screen and (max-width: 600px) {
-
-    .patientviz-banner{
-        align-items: center;
-        justify-content: center;
-    }
-
-    .patientviz-banner-headings{
-        text-align: center;
-    }
-
     .patientviz-banner-heading1{
         font-size: 45px;
     }
 
     .patientviz-banner-heading2{
         font-size: 35px;
+        margin-bottom: 0;
     }
 
     .patientviz-banner img{

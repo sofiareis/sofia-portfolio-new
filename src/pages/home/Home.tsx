@@ -1,7 +1,7 @@
 import "pages/home/Home.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { links } from 'components/Links';
-import sofia from '/Sofia1.png'
+import sofia from '/sofia2.png'
 import { skills } from "./Skills";
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
              </div>
              <div className="home-about">
-                <p className="home-about-title">ABOUT ME</p>
+                <p className="project-main-title">ABOUT ME</p>
                 <p className="home-about-text">
                     Throughout my engineering academic journey, I developed a strong foundation in full-stack development, expanding my experience in frontend and backend.
                 </p>
