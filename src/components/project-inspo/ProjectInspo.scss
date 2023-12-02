@@ -27,10 +27,17 @@
     margin-right: 50px;
 }
 
+.chessmate-inspo-img,
+.project-inspo-img-box,
+.project-inspo-img{
+    display: flex;
+    align-items: center;
+}
+
 .project-inspo-img-box img,
 .project-inspo-img img{
     height: auto;
-    max-height: 350px;
+    max-height: 380px;
     width: auto;
     max-width: 450px;
     margin-left: 50px;
@@ -44,6 +51,10 @@
 .project-code{
     font-weight: 600;
     font-size: 1.2rem;
+
+    p{
+        margin-top: 0;
+    }
 }
 
 .project-link{
@@ -71,20 +82,6 @@
     background-position: right;
 }
 
-.renew-inspo{
-    max-width: var(--max-width);
-    display: flex;
-    margin: var(--margin);
-    align-items: center;
-    justify-content: center;
-}
-
-.renew-inspo-column{
-    display: flex;
-    flex-direction: column;
-    margin-right: 60px;
-}
-
 
 //1320
 @media screen and (max-width: 1320px) {
@@ -94,33 +91,21 @@
 
     .project-inspo-img-box img,
     .project-inspo-img img{
-       margin-left: 15px;
+       margin-left: 25px;
     }
 
     .chessmate-inspo-img img{
         max-height: 300px;
     }
-
-    .renew-inspo-column{
-        margin-right: 20px;
-    }
-
-    .renew-inspo-banner{
-        margin-left: 0px;
-    }
 }
 
 @media screen and (max-width: 1060px) {
-    .project-inspo-column{
-        margin-right: 10px;
-    }
-
     .project-inspo-img-box img,
     .project-inspo-img img{
         width: auto;
         height: auto;
-        max-height: 300px;
-        max-width: 300px;
+        max-height: 350px;
+        max-width: 350px;
         margin-left: 20px;
     }
 }
@@ -129,15 +114,27 @@
 @media screen and (max-width: 900px) {
     .project-inspo-wrap1{
         flex-direction: column;
-        text-align: center;
-    }
-
-    .project-inspo-column{
-        margin-right: 0px;
         align-items: center;
         justify-content: center;
     }
 
+    .project-inspo-column{
+        margin-right: 0px;
+    }
+
+    .project-code{
+        text-align: center;
+        
+        p{
+            margin: 10px;
+        }
+    }
+
+    .project-link{
+        padding-left: 0;
+    }
+
+    .chessmate-inspo-img,
     .project-inspo-img-box,
     .project-inspo-img{
         margin: 0px;
@@ -157,19 +154,6 @@
         max-height: 200px;
         max-width: 200px;
     }
-
-    .renew-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .renew-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
-    }
 }
 
 //600
@@ -180,19 +164,6 @@
         max-width: 300px;
         margin-left: 0px;
         margin-top: 10px;
-    }
-    
-    .renew-inspo{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .renew-inspo-column{
-        display: flex;
-        flex-direction: column;
-        margin-right: 0px;
-        align-items: center;
-        justify-content: center;
     }
 
     .project-code{

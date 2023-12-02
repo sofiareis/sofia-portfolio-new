@@ -1,6 +1,6 @@
 import "pages/projects/Renew/Renew.scss"
 import 'pages/projects/variables.scss'
-import logo from '/renew/Logo.png'
+import logo from '/renew/Logo2.png'
 import ProjectPrize from "components/project-prize/ProjectPrize"
 import { prizes } from "components/project-prize/prizes"
 import ProjectTech from "components/project-tech/ProjectTech"

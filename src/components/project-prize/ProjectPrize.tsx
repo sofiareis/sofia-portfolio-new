@@ -1,6 +1,13 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './ProjecPrize.scss'
+import { faTrophy } from "@fortawesome/free-solid-svg-icons";
 
-const ProjectPrize = (prize: {prizes: string[], img: string, renew?: boolean}) => {
+type prizes = {
+    description: string;
+    prize: string;
+}
+
+const ProjectPrize = (prize: {prizes: prizes[], img: string, renew?: boolean}) => {
     const containerClass = prize.renew? 'renew-prizes-container' : 'project-prizes-container';
     return ( 
         <div className={containerClass}>
@@ -11,9 +18,11 @@ const ProjectPrize = (prize: {prizes: string[], img: string, renew?: boolean}) =
                     <div className="project-prizes-wrap1">
                         <div className="project-prizes-wrap2">
                             <div className="project-prizes-column">
-                                {prize.prizes.map((prize) =>(
+                                {prize.prizes.map((item) =>(
                                         <div className="project-prizes-desc">
-                                            <p>{prize}</p>
+                                            <p id='title'><FontAwesomeIcon icon={faTrophy} className='project-prizes-icon'/> {item.prize}</p>
+                                            <p>{item.description}</p>
+
                                         </div>
                                     ))}
                             </div>

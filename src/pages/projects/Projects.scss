@@ -1,6 +1,16 @@
 .project-container{
-    padding: 30px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     line-height: 1.5;
+}
+
+.project-container-wrap{
+    max-width: var(--max-width);
+    margin: var(--margin);
+    z-index: 1;
+    width: 100%;
 }
 
 .project-subtitle{
@@ -73,10 +83,6 @@
 
 //Smaller screens adapt
 @media screen and (max-width: 1030px){
-    .project-container{
-        padding: 30px 50px;
-    }
-
     .project-list-title{
         font-size: 1.1rem; 
     }
@@ -88,10 +94,6 @@
 }
 
 @media screen and (max-width: 900px){
-    .project-container{
-        padding: 30px 40px;
-    }
-
     .project-list-title{
         font-size: 1rem;
         font-weight: 500;
@@ -105,10 +107,6 @@
 }
 
 @media screen and (max-width: 600px){
-    .project-container{
-        padding: 30px 40px;
-    }
-
     .project-list-title{
         font-size: 1.1rem;
         font-weight: 500;
@@ -124,10 +122,6 @@
 @media screen and (max-width: 450px){
     .project-subtitle{
         font-size: 16px;
-    }
-
-    .project-container{
-        padding: 30px 30px;
     }
 
     .project-list-title{

@@ -5,15 +5,15 @@
 
 .alacrity-banner-container{
     background-color: #9056B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .alacrity-banner{
     line-height: normal;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 20px;
+    margin: var(--margin-banner);
 }
 
 .alacrity-banner-img{

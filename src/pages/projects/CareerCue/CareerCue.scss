@@ -4,15 +4,15 @@
 
 .careercue-banner-container{
     background-color: #E7F7ED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .careercue-banner{
     line-height: normal;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 50px;
+    margin: var(--margin-banner);
 }
 
 .careercue-banner-headings{
@@ -121,14 +121,9 @@
 
 //600
 @media screen and (max-width: 600px) {
-
     .careercue-banner{
         align-items: center;
         justify-content: center;
-    }
-
-    .careercue-banner-headings{
-        text-align: center;
     }
 
     .careercue-banner-heading1{

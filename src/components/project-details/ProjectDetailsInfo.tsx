@@ -1,10 +1,10 @@
-import sharity from '/sharity.png'
-import moko from '/moko.png'
+import sharity from '/sharity2.png'
+import moko from '/moko2.png'
 import onepiece from '/onepiece.png'
-import renew from '/renew.png'
-import chessie from '/chessie.png'
-import alacrity from '/alacrity.png'
-import careercue from '/careercue.png'
+import renew from '/renew2.png'
+import chessie from '/chessmate2.png'
+import alacrity from '/alacrity2.png'
+import careercue from '/careercue2.png'
 import patientviz from '/patientviz.png'
 //import boba from '/GIF.gif'
 //import robotdog from '/robotdog.png'
@@ -20,7 +20,7 @@ export const cards = [
     },
     {
       title: 'Sharity',
-      description: "She + share + charity: a mobile app that connects users to women's shelters",
+      description: "(cmd-f Hackathon 2021) A mobile app that connects users to women's shelters",
       images: sharity,
       page: 'sharity',
   
@@ -28,25 +28,9 @@ export const cards = [
 
     {
       title: 'CareerCue',
-      description: 'A web app that helps you practice for interviews by giving you customized feedback',
+      description: '(cmd-f Hackathon 2023) A web app that helps you practice for interviews by giving you customized feedback',
       images: careercue,
       page: 'careercue',
-  
-    },
- 
-    {
-      title: 'Renew',
-      description: 'A mobile app designed to provide support and resources for immigrants in a new country',
-      images: renew,
-      page: 'renew',
-  
-    },
-
-    {
-      title: 'Moko',
-      description: 'A mobile app that allows users to buy and sell fresh produce within their local communities',
-      images: moko,
-      page: 'moko',
   
     },
 
@@ -55,6 +39,22 @@ export const cards = [
       description: 'A desktop app to help physicians of the BC Children’s Hospital with the triage process of patients',
       images: patientviz,
       page: 'patientviz',
+    },
+ 
+    {
+      title: 'Renew',
+      description: '(cmd-f Hackathon 2022) A mobile app designed to provide support and resources for immigrants in a new country',
+      images: renew,
+      page: 'renew',
+  
+    },
+
+    {
+      title: 'Moko',
+      description: '(Pinnacle Hackathon 2021) A mobile app that allows users to buy and sell fresh produce within their local communities',
+      images: moko,
+      page: 'moko',
+  
     },
 
     {

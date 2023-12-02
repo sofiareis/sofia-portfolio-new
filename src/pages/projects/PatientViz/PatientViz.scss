@@ -4,15 +4,15 @@
 
 .patientviz-banner-container{
     background-color: #868FC6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .patientviz-banner{
     line-height: normal;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 20px;
+    margin: var(--margin-banner);
 }
 
 .patientviz-banner-headings{
@@ -33,6 +33,7 @@
     margin-top: 10px;
     margin-bottom: 30px;
     font-size: 50px;
+    font-weight: 500;
 }
 
 .patientviz-banner-img{

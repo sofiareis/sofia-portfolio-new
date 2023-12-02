@@ -30,7 +30,7 @@ export const inspiration = {
         link: 'https://github.com/sofiareis/moko',
     },
     patientviz: {
-        inspo: "Triage is a crucial tool in managing long waitlists as the triage process enables more equitable care and allows patients with the greatest and most urgent needs to be seen first (Moskop & Iserson, 2004). However, the triage process can be complicated, as referrals received by specialist physicians often differ in detail and length. The goal of PatientViz is to help physicians with the triage process and minimize long waiting lists.",
+        inspo: "Triage is a crucial tool in managing long waitlists as the triage process enables more equitable care and allows patients with the greatest and most urgent needs to be seen first (Moskop & Iserson, 2004). However, the triage process can be complicated, as referrals received by specialist physicians often differ in detail and length.\nThe goal of PatientViz is to help physicians with the triage process and minimize long waiting lists.",
         img: '/patientviz/health2.png',
         backgroundcolor: '#A96385',
         textcolor: 'black',
@@ -39,13 +39,13 @@ export const inspiration = {
     renew: {
         inspo: " In light of the war in Ukraine today, millions of Ukranians have fled into neighboring countries into a frightening and uncertain future. Renew is meant to help refugees in similar situations as they navigate life in a new, unfamiliar country.",
         img: '/careercue/inspo.png',
-        backgroundcolor: '#839788',
+        backgroundcolor: '#386641',
         textcolor: 'black',
         renew: true,
         link: 'https://github.com/sofiareis/renew',
     },
     sharity: {
-        inspo: "Inspired by the words: she, share, and charity, we created Sharity, a female empowerment donation app. Sharity promotes women empowerment in the community and sustainability by encouraging users to donate their used or new items to local female’s shelters.",
+        inspo: "Inspired by the words: she, share, and charity, Sharity was created: a female empowerment donation app. Sharity promotes women empowerment in the community and sustainability by encouraging users to donate their used or new items to local female’s shelters.",
         img: '/sharity/inspo.png',
         backgroundcolor: '#739AAB',
         textcolor: 'white',

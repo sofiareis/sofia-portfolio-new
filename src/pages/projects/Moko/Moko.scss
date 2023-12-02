@@ -4,15 +4,15 @@
 
 .moko-banner-container{
     background-color: #FBB149;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .moko-banner{
     line-height: normal;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 20px;
+    margin: var(--margin-banner);
 }
 
 .moko-banner-headings{
@@ -25,19 +25,22 @@
 
 .moko-banner-heading1{
     margin-bottom: 10px;
-    font-size: 70px;
+    font-size: 65px;
+    font-weight: 600;
     display: flex;
 }
 
 .moko-banner-heading1 p{
     margin-bottom: 10px;
+    margin-right: 5px;
 }
 
 .moko-banner-heading2{
     margin-top: 10px;
     margin-bottom: 30px;
-    font-size: 60px;
+    font-size: 58px;
     margin-right: 20px;
+    font-weight: 500;
 }
 
 .moko-banner-img{
@@ -73,10 +76,6 @@
     .moko-banner-heading2{
         font-size: 45px;
     }
-
-    .moko-sell-buy{
-        margin-left: 0px;
-    }
 }
 
 //900
@@ -88,11 +87,16 @@
     .moko-banner-headings{
         align-items: center;
         justify-content: center;
+        text-align: center;
         margin-left: 0px;
     }
 
     .moko-banner-heading1{
         font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .moko-banner img{
@@ -105,17 +109,8 @@
 
 //600
 @media screen and (max-width: 600px) {
-
-    .moko-banner-headings{
-        text-align: center;
-    }
-
     .moko-banner-heading1{
         font-size: 35px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
 
     .moko-banner img{

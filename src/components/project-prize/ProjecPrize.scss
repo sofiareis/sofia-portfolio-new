@@ -29,11 +29,22 @@
     margin: 0px;
 }
 
+.project-prizes-desc #title{
+    font-weight: 500;
+}
+
 .project-prize-img{
     //margin-right: 140px;
     //display: flex;
     //align-items: center;
     //justify-content: flex-end;
+    display: flex;
+    align-self: center;
+}
+
+.project-prizes-icon{
+    color: #c99b1d;
+    padding-right: 5px;
 }
 
 .project-prize-img img{
@@ -68,7 +79,7 @@
 
     .project-prizes-wrap2{
         margin: 0;
-        text-align: center;
+        //text-align: center;
     }
     
     .project-prize-img{

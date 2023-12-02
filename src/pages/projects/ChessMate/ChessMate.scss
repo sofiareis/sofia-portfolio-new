@@ -4,15 +4,15 @@
 
 .chessmate-banner-container{
     background-color: #EBECD1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .chessmate-banner{
     line-height: normal;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 50px;
+    margin: var(--margin-banner);
 }
 
 .chessmate-banner-img{

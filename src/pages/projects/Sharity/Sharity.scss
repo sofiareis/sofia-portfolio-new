@@ -5,10 +5,9 @@
 .sharity-banner{
     line-height: normal;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: 50px 50px;
+    margin: var(--margin-banner);
 }
 
 .sharity-banner-headings{
@@ -16,7 +15,8 @@
     flex-direction: column;
     font-size: 40px;
     color: #8D5C66;
-    text-align: center;
+    font-weight: 500;
+    //text-align: center;
 }
 
 .sharity-banner-heading1{
@@ -34,14 +34,14 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .sharity-banner-img{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 90px;
+    margin-left: 50px;
 }
 
 .sharity-banner img{
@@ -63,10 +63,6 @@
     .sharity-banner-heading3{
         font-size: 45px;
     }
-
-    .sharity-title{
-        line-height: normal;
-    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -79,7 +75,7 @@
     }
 
     .sharity-banner-img{
-        margin-left: 50px;
+        margin-left: 25px;
     }
 }
 
@@ -92,6 +88,7 @@
     .sharity-banner-headings{
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
 
     .sharity-banner-img{
@@ -110,10 +107,6 @@
 
 //600
 @media screen and (max-width: 600px) {
-    .sharity-banner{
-        margin: 50px 30px;
-    }
-
     .sharity-banner-headings{
         font-size: 22px;
     }
